@@ -15,17 +15,17 @@
     <body>
         <header>
             <nav class="navbar navbar-dark bg-dark">
-                <a class="navbar-brand " href="index.html">Camila Ribeiro</a>
-                <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
-            aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i class="fa fa-bars"></i></span></button>
-
-                
+                <a class="navbar-brand " href="{{ url_for('index') }}">Camila Ribeiro</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="#">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="{{ url_for('about') }}">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Resume</a>
@@ -34,14 +34,15 @@
                             <a class="nav-link" href="#">Contact</a>
                         </li>
                     </ul>
-                
+                </div>
             </nav>
         </header>
         <section class="container-hero">
             <div class="hero-img">
                 <div class="container m-jumbotron">
                     <div class="hero-tittle">
-                        <h1 class="text-center mobile-title">Hi, I'm Camila</h1>
+                        <h1 class="text-center mobile-title">Originally from Sao Paulo, Brazil.
+                            Currently in Dublin, Ireland.</h1>
                         <p class="text-center">Product designer & Fullstack developer fascinated by the social product space.</p>
                     </div>
                 </div>
