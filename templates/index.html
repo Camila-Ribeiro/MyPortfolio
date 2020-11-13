@@ -1,38 +1,39 @@
 {% extends 'base.html' %}
 {% block content %}
 
-<section id="index" class="smooth">
+<section id="index" class="smooth hello-section">
     <div>
-        <div class="container">
-            <div>
-                <h1 class="text-center">Hi, I'm Camila</h1>
-                <p class="text-center">Product designer & Fullstack developer fascinated by the social product space.</p>
-            </div>
-        </div>
+      <div class="container wrapper">
+          <div class="ml-5">
+            <div class="text-left text-size">Hello.</div>
+            <div class="text-left text-size">I'm <span class="text-size font-weight-bold bg-danger">Camila</span></div>
+          </div>
+          <div class="mr-120 mt-4">
+            <p class="text-right mb-0">FULLSTACK DEVELOPER</p>
+            <p class="text-right">UX DESIGNER </p>
+          </div>
+      </div>
     </div>  
 </section>
 
-<section id="portfolio" class="smooth">
+<section id="portfolio" class="smooth portfolio-section">
     <div class="container">
-        <h1 class="text-left">Originally from Sao Paulo, Brazil.
-            Currently in Dublin, Ireland.</h1>
+        <h1 class="text-left pt-5">FEATURED PROJECTS</h1>
     </div>
 </section>
-<section id="about" class="smooth">
+<section id="about" class="smooth about-section">
     <div class="container">
-        <p>two</p>
+        <h1 class="pt-5">UX Designer and Fullstack developer from Sao Paulo, Brazil.
+          Currently based in Dublin, Ireland.</h1>
+         <p class="mt-3">More than 15 years experience in customer facing industry with a focus in maintaining long-term relationships with clients and co-workers. Very patient, calm person with excellent communication and interpersonal skills. Strong Business Management experience having worked in a Salon Business environment which required a high level of attention to detail.
+          A vibrant and engaging personality and a drive to succeed with excellent organizational & analytical skills. I am currently a student of Full Stack Software Development at the Code Institute and Professional Diploma UX Design at UX Design Institute and expect to graduate (September 2020). During this time I updated my IT and User Experience skills. Now looking for a suitable Full Stack position that makes best use of my existing abilities and allows me to develop new skills. </p> 
     </div>
 </section>
-<section id="resume" class="smooth">
+<section id="contact" class="smooth mb-5">
     <div class="container">
-        <p>three</p>
+        <h2 class="text-left pt-5">camilarf@gmail.com</h2>
     </div>
-</section>
-<section id="contact" class="smooth">
-    <div class="container mt-5">
-        <h2 class="text-center">Please fill the form</h2>
-    </div>
-    <form id="#" class="container" onsubmit="return sendMail(this);" autocomplete="off" >
+    <!-- <form id="#" class="container" onsubmit="return sendMail(this);" autocomplete="off" >
       <div class="form-group">
         <label for="fullname">Full Name</label>
         <input type="text" class="form-control" id="fullname" placeholder="Full Name" required>
@@ -64,7 +65,7 @@
           </div>
       </div>
       <button type="submit" class="btn btn-warning">Submit</button>
-    </form>
+    </form> -->
 </section>
 {% endblock %}
 
