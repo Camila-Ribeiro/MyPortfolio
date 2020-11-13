@@ -6,11 +6,15 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     title = "Camila Ribeiro"
-    return render_template("index.html", title=title)
+    index = "#index"
+    portfolio = "#portfolio"
+    about = "#about"
+    contact = "#contact"
+    return render_template("index.html", title=title, index=index, portfolio=portfolio, about=about, contact=contact)
 
-@app.route("/portifolio")
-def portifolio():
-    return render_template("portifolio.html")
+@app.route("/portfolio")
+def portfolio():
+    return render_template("portfolio.html")
 
 @app.route("/about")
 def about():

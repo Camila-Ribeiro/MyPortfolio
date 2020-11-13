@@ -14,46 +14,25 @@
     </head>
     <body>
         <header>
-            <!-- <nav class="navbar navbar-dark bg-dark">
-                <a class="navbar-brand " href="{{ url_for('index') }}">Camila Ribeiro</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ url_for('portifolio') }}">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ url_for('about') }}">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Resume</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ url_for('contact') }}">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav> -->
+            
             <div>
                 <nav class="nav" data-topbar role="navigation" data-options="sticky_on: large">
-                    <a class="smooth nav-link" href="#index">Camila Ribeiro</a>
+                    <a class="smooth nav-link" href="{{ index }}">Camila Ribeiro</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     </button>
                   <div class="container">
                     <ul class="nav justify-content-end">
                         <li class="nav-item">
-                            <a class="smooth nav-link" href="#portifolio">Portifolio</a>
+                            <a class="smooth nav-link" href="{{ portfolio }}">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="smooth nav-link" href="#about">About</a>
+                            <a class="smooth nav-link" href="{{ about }}">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="smooth nav-link" href="#resume">Resume</a>
+                            <a class="smooth nav-link" href="{{ resume }}">Resume</a>
                         </li>
                         <li class="nav-item">
-                            <a class="smooth nav-link" href="#contact">Contact</a>
+                            <a class="smooth nav-link" href="{{ contact }}">Contact</a>
                         </li>
                     </ul>
                   </div>
