@@ -6,7 +6,9 @@
       <div class="container wrapper">
           <div class="ml-5">
             <div class="text-left text-size">Hello.</div>
-            <div class="text-left text-size">I'm <span class="text-size font-weight-bold bg-danger">Camila</span></div>
+            <div class="text-left text-size text-camila">I'm 
+              <span class="text-size box font-weight-bold box-underlay animate__animated animate__slideInUp">Camila</span> 
+            </div>              
           </div>
           <div class="mr-120 mt-4">
             <p class="text-right mb-0">FULLSTACK DEVELOPER</p>
@@ -14,14 +16,56 @@
           </div>
       </div>
     </div>  
-</section>
-
 <section id="portfolio" class="smooth portfolio-section">
-    <div class="container">
-        <h1 class="text-left pt-5">FEATURED PROJECTS</h1>
+    <div class="container-wrapper">
+      <h1 class="text-right mb-5 pt-5 "> {{ page_title }} </h1>
+      <div class="container-flex">
+
+        {% for project in projects %}
+
+        <div class="row featurette">
+
+          {% if loop.index % 2 !=0 %}
+
+          <div class="col-md-7">
+              <h3><a href="/projects/{{ project.url }}">{{ loop.index }}. {{project.name }}</a></h3>
+              <p>
+                {{ project.description }}
+              </p>
+          </div>
+          <div class="col-md-5">
+              <img class="featurette-image img-responsive" src="#">
+          </div>
+
+          {% else %}
+
+          <div class="col-md-5">
+              <img class="featurette-image img-responsive" src="#">
+          </div>
+          <div class="col-md-7">
+              <h3><a href="#"> {{ loop.index }}. {{project.name }} </a></h3>
+              <p>
+                {{ project.description }}
+              </p>
+          </div>
+  
+          {% endif %}
+        </div>
+
+        {% if loop.index !=13 %}
+
+        <hr class="featurette-divider"> 
+
+        {% endif %}
+        
+        {% endfor %}
+    
+      </div>
     </div>
+    
+
 </section>
-<section id="about" class="smooth about-section">
+<section id="about" class="smooth about-section" id="grad">
     <div class="container">
         <h1 class="pt-5">UX Designer and Fullstack developer from Sao Paulo, Brazil.
           Currently based in Dublin, Ireland.</h1>
@@ -29,10 +73,11 @@
           A vibrant and engaging personality and a drive to succeed with excellent organizational & analytical skills. I am currently a student of Full Stack Software Development at the Code Institute and Professional Diploma UX Design at UX Design Institute and expect to graduate (September 2020). During this time I updated my IT and User Experience skills. Now looking for a suitable Full Stack position that makes best use of my existing abilities and allows me to develop new skills. </p> 
     </div>
 </section>
-<section id="contact" class="smooth mb-5">
+<section id="contact" class="smooth mb-5 contact-section">
     <div class="container">
         <h2 class="text-left pt-5">camilarf@gmail.com</h2>
-    </div>
+        <p>fjfhfhjdhfjsdhcjkhndjskchkxhcjhhhhsdhcshhsfbsdchbjhcb hjbvjhsgbhjsdbcvjhbc hjbvcjhdbvjhbchjxb jhxbvjhsdbvjshbcjhbfhefhhjdhghruhguirhgurhghghg </p>
+    </div> 
     <!-- <form id="#" class="container" onsubmit="return sendMail(this);" autocomplete="off" >
       <div class="form-group">
         <label for="fullname">Full Name</label>
@@ -68,5 +113,6 @@
     </form> -->
 </section>
 {% endblock %}
+
 
   
