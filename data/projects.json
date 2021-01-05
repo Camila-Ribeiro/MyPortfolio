@@ -1,26 +1,42 @@
 [
     {
-        "name": "Flower Beauty",
-        "description": "Flower Beauty and Nails is a beautician website designed for users that are looking for information on services offered, team members, prices and location. The website is simple and structured in a way that is easy to navigate and find the information needed. It was redesigned from and old version (https://flowerbeautyandnails.wordpress.com/).",
-        "image_source": "http://www.panhistoria.com/Stacks/Novels/characterimages/T27293.jpg",
-        "url": "flower-beauty"
+      "name": "Flower Beauty",
+      "description": "Flower Beauty and Nails is a beautician website designed for users that are looking for information on services offered, team members, prices and location. The website is simple and structured in a way that is easy to navigate and find the information needed. It was redesigned from and old version (https://flowerbeautyandnails.wordpress.com/).",
+      "project_role": [
+        "UX",
+        "Front-End"
+      ],
+      "image_source": "http://www.panhistoria.com/Stacks/Novels/characterimages/T27293.jpg",
+      "url": "flower-beauty"
     },
     {
-        "name": "My Cookbook",
-        "description": "My Cookbook is an online web application designed for users with interest in gathering information about recipes. It was built using Python - programming language, Flask - which is a Python micro framework and MongoDB Atlas - a document-based database.",
-        "image_source": "http://www.panhistoria.com/Stacks/Novels/characterimages/T27293.jpg",
-        "url": "my-cookbook"
+      "name": "My Cookbook",
+      "description": "My Cookbook is an online web application designed for users with interest in gathering information about recipes. It was built using Python - programming language, Flask - which is a Python micro framework and MongoDB Atlas - a document-based database.",
+      "project_role": [
+        "UX",
+        "Front-End"
+      ],
+      "image_source": "http://www.panhistoria.com/Stacks/Novels/characterimages/T27293.jpg",
+      "url": "my-cookbook"
     },
     {
-        "name": "Curious World",
-        "description": "Curious World is a website designed for users with interest in find out information about hotels, restaurants and museums across different cities all over the world. It offers photos, reviews, ratings, maps, websites and phone numbers. The website is simple and structured in a way that is easy to navigate and find the information needed. It was designed based on database from Foursquare API.",
-        "image_source": "http://www.panhistoria.com/Stacks/Novels/characterimages/T27293.jpg",
-        "url": "curious-world"
+      "name": "Curious World",
+      "description": "Curious World is a website designed for users with interest in find out information about hotels, restaurants and museums across different cities all over the world. It offers photos, reviews, ratings, maps, websites and phone numbers. The website is simple and structured in a way that is easy to navigate and find the information needed. It was designed based on database from Foursquare API.",
+      "project_role": [
+        "UX",
+        "Fullstack"
+      ],
+      "image_source": "http://www.panhistoria.com/Stacks/Novels/characterimages/T27293.jpg",
+      "url": "curious-world"
     },
     {
-        "name": "Body Balance",
-        "description": "Body Balance is an online web application designed for users with interest in gathering information about fitness healthy lifestyle as Nutritional plans and also Gym Equipments and Activewear. The website is simple and structured in a way that is easy and intuitive to navigate through. The application is designed for three types of users, the site owner/ administrator (login as superuser) and external users (login as anonymous user, or registered users). It  was built using Python - programming language, Django - which is a high-level Python Web framework that encourages rapid development and clean, pragmatic design and Hekoru Postgres - a document-based database.",
-        "image_source": "http://www.panhistoria.com/Stacks/Novels/characterimages/T27293.jpg",
-        "url": "body-balance"
+      "name": "Body Balance",
+      "description": "Body Balance is an online web application designed for users with interest in gathering information about fitness healthy lifestyle as Nutritional plans and also Gym Equipments and Activewear. The website is simple and structured in a way that is easy and intuitive to navigate through. The application is designed for three types of users, the site owner/ administrator (login as superuser) and external users (login as anonymous user, or registered users). It  was built using Python - programming language, Django - which is a high-level Python Web framework that encourages rapid development and clean, pragmatic design and Hekoru Postgres - a document-based database.",
+      "project_role": [
+        "UX",
+        "Fullstack"
+      ],
+      "image_source": "http://www.panhistoria.com/Stacks/Novels/characterimages/T27293.jpg",
+      "url": "body-balance"
     }
-]
+  ]
