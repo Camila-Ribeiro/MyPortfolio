@@ -1,6 +1,6 @@
 import os
 import json
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
@@ -18,7 +18,7 @@ def projects():
     data = []
     with open("data/projects.json", "r") as json_data:
         data = json.load(json_data)
-    return render_template("index.html", page_title="Projects", projects=data)
+    return render_template("index.html", page_title="My Projects", projects=data)
 
 @app.route("/projects/<project_name>")
 def project_detail(project_name):

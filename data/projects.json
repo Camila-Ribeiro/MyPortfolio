@@ -8,19 +8,19 @@
     {
         "name": "My Cookbook",
         "description": "My Cookbook is an online web application designed for users with interest in gathering information about recipes. It was built using Python - programming language, Flask - which is a Python micro framework and MongoDB Atlas - a document-based database.",
-        "image_source": "http://www.filmofilia.com/wp-content/uploads/2011/07/hobbit_0.jpg",
+        "image_source": "http://www.panhistoria.com/Stacks/Novels/characterimages/T27293.jpg",
         "url": "my-cookbook"
     },
     {
         "name": "Curious World",
         "description": "Curious World is a website designed for users with interest in find out information about hotels, restaurants and museums across different cities all over the world. It offers photos, reviews, ratings, maps, websites and phone numbers. The website is simple and structured in a way that is easy to navigate and find the information needed. It was designed based on database from Foursquare API.",
-        "image_source": "https://images.tvnz.co.nz/tvnz_images/hobbit_news/2012/10/dwarf_oin_hobbit_E1.jpg",
+        "image_source": "http://www.panhistoria.com/Stacks/Novels/characterimages/T27293.jpg",
         "url": "curious-world"
     },
     {
         "name": "Body Balance",
         "description": "Body Balance is an online web application designed for users with interest in gathering information about fitness healthy lifestyle as Nutritional plans and also Gym Equipments and Activewear. The website is simple and structured in a way that is easy and intuitive to navigate through. The application is designed for three types of users, the site owner/ administrator (login as superuser) and external users (login as anonymous user, or registered users). It  was built using Python - programming language, Django - which is a high-level Python Web framework that encourages rapid development and clean, pragmatic design and Hekoru Postgres - a document-based database.",
-        "image_source": "https://vignette.wikia.nocookie.net/lotr/images/f/fc/Gloin_2.jpg/revision/latest/scale-to-width-down/350?cb=20120908171710",
+        "image_source": "http://www.panhistoria.com/Stacks/Novels/characterimages/T27293.jpg",
         "url": "body-balance"
     }
 ]

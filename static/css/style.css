@@ -2,6 +2,11 @@ p {
     color: black;
 }
 
+.p100 {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
 /* ------------------------------------------ navigation and footer*/
 nav {
     background-color: #158E81;
@@ -74,7 +79,7 @@ footer {
 /* ------------------------------------------ Works Section*/
 .portfolio-section {
     background-color: #ffffff;
-    height: 80vh;
+    /* height: 80vh; */
     color: black;
 }
 
