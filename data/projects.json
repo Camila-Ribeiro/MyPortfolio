@@ -31,7 +31,7 @@
     },
     {
       "name": "Body Balance",
-      "description": "Body Balance is an online web application designed for users with interest in gathering information about fitness healthy lifestyle as Nutritional plans and also Gym Equipments and Activewear. The website is simple and structured in a way that is easy and intuitive to navigate through. The application is designed for three types of users, the site owner/ administrator (login as superuser) and external users (login as anonymous user, or registered users). It  was built using Python - programming language, Django - which is a high-level Python Web framework that encourages rapid development and clean, pragmatic design and Hekoru Postgres - a document-based database.",
+      "description": "Body Balance is an e-commerce web application designed for users with interest in fitness & healthy lifestyle offering Nutritional Plan, Gym Equipments & Activewear available to purchase. It's designed using CRUD operations, built using Python and Django.",
       "project_role": [
         "UX",
         "Fullstack"
