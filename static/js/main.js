@@ -1,3 +1,7 @@
+
+
+
+
 $(document).ready(function() {
     $(".smooth").click(function(event){
              event.preventDefault();
@@ -11,5 +15,26 @@ $(document).ready(function() {
              //go to destination
              $('html,body').animate({scrollTop:dest}, 1000,'swing');
      });
+
+     // // When the user scrolls the navigation is sticky
+     // window.onscroll = function() {myFunction()};
+
+     // var navbar = document.getElementById("navbar");
+     // var sticky = navbar.offsetTop;
+
+     // function myFunction() {
+     //      if (window.pageYOffset >= sticky) {
+     //           navbar.classList.add("sticky")
+     //      } else {
+     //           navbar.classList.remove("sticky");
+     //      }
+     // }
 });
+
+
+
+
+
+
+
 

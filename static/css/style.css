@@ -28,13 +28,40 @@ body {
 }
 
 /* ------------------------------------------ navigation and footer*/
-nav {
+
+/* Style the navbar */
+.navbar {
+    overflow: hidden;
     background-color: #158E81;
+    z-index: 9999;
 }
 
-nav a {
+/* Navbar links */
+#navbar a {
+    float: left;
+    display: block;
     color: black;
-}
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
 
 /* .menu {
     text-align: right;
@@ -57,8 +84,9 @@ footer {
 
 /* ------------------------------------------ Hello Section*/
 .hello-section {
+    font-weight: 100;
     background-color: #158E81;
-    height: 80vh;
+    height: 100vh;
 }
 
 .wrapper {
@@ -146,6 +174,7 @@ footer {
     -o-transition: all .25s;
     transition: all .25s;
     padding-top: 100px;
+    padding-bottom: 150px;
 }
 
 .container--projects h3 {
@@ -231,10 +260,10 @@ footer {
 
 /* ------------------------------------------ About Section*/
 .about-section {
-    background-color:#DB880B;
+    background-color:#EDF0F2;
     height: 80vh;
     color: black; 
-    background-image: linear-gradient(180deg, #DB880B, black);
+    /* background-image: linear-gradient(180deg, #DB880B, black); */
 }
 
 /* ------------------------------------------ Contact Section*/
@@ -242,4 +271,5 @@ footer {
     background-color: black;
     height: 80vh;
     color: white;
+    padding-top: 150px;
 }
