@@ -41,24 +41,24 @@ body {
     text-align: center;
     padding: 14px;
     text-decoration: none;
-  }
+}
   
-  /* Page content */
-  .content {
-    padding: 16px;
-  }
+/* Page content */
+/* .content {
+padding: 16px;
+} */
   
-  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+position: fixed;
+top: 0;
+width: 100%;
+}
   
-  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky + .content {
-    padding-top: 60px;
-  }
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+padding-top: 60px;
+}
 
 /* ------------------------------------------ hello section*/
 .hello-section {
@@ -104,7 +104,7 @@ body {
 
 /* ------------------------------------------ portfolio section*/
 .portfolio-section {
-    background-color: #ffffff
+    background-color: #ffffff;
     color: black;
 }
 
@@ -245,15 +245,102 @@ body {
 /* ------------------------------------------ contact section*/
 .contact-section {
     background-color: grey;
+    width: 100vw;
     height: 100vh;
     color: white;
-    padding-top: 150px;
+    padding-top: 200px;
 }
 
 .contact-section p {
     letter-spacing: 0.063rem;
 }
 
-.copyright {
-    letter-spacing: 0.063rem;
+.contentWrapper {
+    width: 100vw;
+    padding: 0 9.72222222VW;
+    margin: 0 auto;
 }
+
+section .innerContact {
+    padding: 0 6.94444444VW;
+}
+
+.titleInfo {
+    font-family: "Times new roman", serif;
+    font-size: 3.000vw;
+    line-height: 4.167vw;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+section .innerContact .row .col:first-child {
+    width: 60%;
+}
+
+section .innerContact .row .col:last-child {
+    width: 40%;
+    text-align: right;
+}
+
+section .innerContact .row .col:first-child a {
+    color: #D91616;
+    font-style: italic;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+section .innerContact .row .col:last-child .label {
+    margin-top: 0.36VW;
+    font-style: italic;
+}
+
+section .innerContact .row .col:last-child .socials a {
+    font-size: 1.25VW;
+    color: #fff;
+    display: inline-block;
+    margin-right: 1.38888889VW;
+    -webkit-transition: color 0.3s 0s ease-out;
+    -moz-transition: color 0.3s 0s ease-out;
+    -o-transition: color 0.3s 0s ease-out;
+    transition: color 0.3s 0s ease-out;
+}
+
+section .innerContact .smallFooter {
+    /* letter-spacing: 0.063rem; */
+    /* padding: 1.38888889VW 0; */
+    font-style: italic;
+    position: relative;
+    /* content: ""; */
+    height: 0.13888889VW;
+    left: 50%;
+    /* position: absolute; */
+    top: 0;
+    /* width: 0;  */
+    transform: translateX(-50%);
+    background: #D91616;
+    /* transition: all 0.6s ease-out;
+    -webkit-transition-delay: 0.3s;
+    -moz-transition-delay: 0.3s;
+    -o-transition-delay: 0.3s;
+    transition-delay: 0.3s; */
+}
+
+
+section .innerContact .smallFooter:first-child {
+    content: "";
+    height: 0.13888889VW;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    width: 0; 
+    transform: translateX(-50%);
+    background: #D91616;
+    transition: all 0.6s ease-out;
+    -webkit-transition-delay: 0.3s;
+    -moz-transition-delay: 0.3s;
+    -o-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+}
+
+
