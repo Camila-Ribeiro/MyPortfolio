@@ -3,7 +3,7 @@ body {
 }
 
 .paddingTB {
-    padding-top: 300px;
+    padding-top: 200px;
     padding-bottom: 150px;
 }
 
@@ -14,7 +14,7 @@ body {
     line-height: 1.5;
 }
 
-.heading::after {
+.heading::before {
     content: '';
     display: inline-block;
     width: 50px;
@@ -29,7 +29,7 @@ body {
 /* Style the navbar */
 .navbar {
     overflow: hidden;
-    background-color: #158E81;
+    background-color: rgba(255,255,255,0.5);
     z-index: 9999;
 }
 
@@ -168,14 +168,16 @@ padding-top: 60px;
     background-color: #F7F8F7;
     transform: translateY(30%) skewY(12deg);
     /* border-top: 5px solid rgb(200, 50, 50); */
-    margin-bottom: -60px;
-    padding-top: 0px;
+    margin: 35px 0px -60px 0px;
+    /* margin-bottom: -60px;
+    padding-top: 0px; */
     /* overflow-x: hidden; */
 }
 
 .skewX h1 {
     display: inline-block;
     transform: skewY(-12deg);
+    margin-top: 50px;
 }
 
 .bg-white {
