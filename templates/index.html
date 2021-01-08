@@ -2,7 +2,7 @@
 {% block content %}
 
 <section id="index" class="smooth hello-section content">
-  <div>
+  <div class="top">
     <div class="container wrapper">
       <div class="introWrapper">
         <div class="ml-5">
@@ -35,10 +35,14 @@
     </div>
   </div>  
 </section>
-
+<div class="skewX">
+  <div class="background-skew">
+    <h1 class="heading text-right text-uppercase w-100"> My Projects </h1>
+  </div>
+</div>
 <section id="projects" class="smooth portfolio-section content">
     <div class="container-wrapper paddingTB">
-      <h1 class="heading text-right text-uppercase w-100"> My Projects </h1>
+      <!-- <h1 class="heading text-right text-uppercase w-100"> My Projects </h1> -->
       
       {% for project in portifolio %}
 

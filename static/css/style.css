@@ -3,12 +3,12 @@ body {
 }
 
 .paddingTB {
-    padding-top: 100px;
+    padding-top: 300px;
     padding-bottom: 150px;
 }
 
 .heading {
-    font-size: 16px;
+    font-size: 1.25rem;
     letter-spacing: 0.063rem;
     font-weight: 400;
     line-height: 1.5;
@@ -69,7 +69,8 @@ padding-top: 60px;
 }
 
 .wrapper {
-    padding-top: 220px;
+    padding-top: 300px;
+    margin-bottom: 70px;
 }
 
 .camilaWrapper {
@@ -131,6 +132,9 @@ padding-top: 60px;
     margin-left: 82px;
 }
 
+.top {
+    height: 1000px;
+}
 .top-all {
     width: 100%;
     margin: 0 auto;
@@ -152,7 +156,30 @@ padding-top: 60px;
     top: 0;
     left: 0;
     width: 100%;
-    height: 900px;
+    height: 1200px;
+}
+
+.skewX {
+    position: relative;
+    /* z-index: -100; */
+    height: 340px;
+    vertical-align: bottom;
+    width: 100%;
+    background-color: #F7F8F7;
+    transform: translateY(30%) skewY(12deg);
+    /* border-top: 5px solid rgb(200, 50, 50); */
+    margin-bottom: -60px;
+    padding-top: 0px;
+    /* overflow-x: hidden; */
+}
+
+.skewX h1 {
+    display: inline-block;
+    transform: skewY(-12deg);
+}
+
+.bg-white {
+    background-color: white;
 }
 
 /* ------------------------------------------ portfolio section*/
