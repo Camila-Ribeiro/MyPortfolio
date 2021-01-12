@@ -174,7 +174,7 @@ padding-top: 60px;
     /* overflow-x: hidden; */
 }
 
-.skewX h1 {
+.skewX h2 {
     display: inline-block;
     transform: skewY(-12deg);
     margin-top: 50px;
@@ -319,14 +319,37 @@ padding-top: 60px;
 
 /* ------------------------------------------ about section*/
 .about-section {
-    background-color:#EDF0F2;
-    height: 80vh;
+    background-color:#7BBAC4;
+    height: 100vh;
     color: black; 
+}
+
+.about-wrapper {
+    padding-top: 9.375rem;
+}
+
+.about-wrapper h3 {
+    letter-spacing: 0.063rem;
+    font-weight: bolder;
+    line-height: 1.375;
+}
+
+.about-wrapper p {
+    font-weight: lighter;
+    line-height: 1.75;
+}
+
+.mT-80 {
+    margin-top: 5rem;
+}
+
+.about-wrapper .heading:before {
+    margin: 11px 10px 100px 0;
 }
 
 /* ------------------------------------------ contact section*/
 .contact-section {
-    background-color: grey;
+    background-color: #390000;
     width: 100vw;
     height: 100vh;
     color: white;
