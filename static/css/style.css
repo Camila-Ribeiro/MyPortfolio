@@ -2,9 +2,8 @@ body {
     color: #222222;
 }
 
-.paddingTB {
-    padding-top: 200px;
-    padding-bottom: 150px;
+.pT {
+    padding-top: 100px;
 }
 
 .heading {
@@ -188,6 +187,7 @@ padding-top: 60px;
 .portfolio-section {
     background-color: #ffffff;
     color: black;
+    width: 100vw;
 }
 
 .container-wrapper {
@@ -229,11 +229,11 @@ padding-top: 60px;
 }
 
 .container--projects {
-    -webkit-transition: all .25s;
-    -o-transition: all .25s;
+    /* -webkit-transition: all .25s;
+    -o-transition: all .25s; */
     transition: all .25s;
-    padding-top: 100px;
-    padding-bottom: 150px;
+    /* padding-top: 100px; */
+    padding-bottom: 200px;
 }
 
 .container--projects h3 {
@@ -321,11 +321,13 @@ padding-top: 60px;
 .about-section {
     background-color:#7BBAC4;
     height: 100vh;
+    width: 100vw;
     color: black; 
 }
 
 .about-wrapper {
-    padding-top: 9.375rem;
+    padding-top: 150px;
+    padding-bottom: 100px;
 }
 
 .about-wrapper h3 {
@@ -339,9 +341,9 @@ padding-top: 60px;
     line-height: 1.75;
 }
 
-.mT-80 {
-    margin-top: 5rem;
-}
+/* .mT-80 {
+    margin-top: 80px;
+} */
 
 .about-wrapper .heading:before {
     margin: 11px 10px 100px 0;
