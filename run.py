@@ -16,13 +16,6 @@ def index():
         data = json.load(json_data)
     return render_template("index.html", title=title, index=index, projects=projects, about=about, contact=contact, portifolio=data)
 
-# @app.route("/projects")
-# def projects():
-#     data = []
-#     with open("data/projects.json", "r") as json_data:
-#         data = json.load(json_data)
-#     return render_template("index.html", page_title="My Projects", portifolio=data)
-
 @app.route("/projects/<project_name>")
 def project_detail(project_name):
     project = {}
@@ -38,9 +31,6 @@ def project_detail(project_name):
 def about():
     return render_template("about.html")
 
-# @app.route("/contact")
-# def contact():
-#     return render_template("contact.html")
 
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
