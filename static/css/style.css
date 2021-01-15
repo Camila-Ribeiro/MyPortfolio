@@ -581,14 +581,30 @@ section .innerContact .smallFooter:first-child {
     }
 }
 
-.experience-skills-wrap {
-    height: 100vh;
-    background-color: #7f9298;
-    margin: 100px 0;
+.education-wrapper {
+    background-color: #fff;
+    width: 600px;
+    min-height: 500px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+.container-education, .container-experience-skills {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.experience-skills-wrapper {
+    /* width: 80%; */
+    margin: 0 auto;
+    /* max-width: 1100px; */
+    /* margin: 100px 0; */
 }
 
 .experience-wrap, .skills-wrap {
-    padding: 20px 20px 20px 30px;
+    padding: 20px;
 }
 
 .experience-info h4 {
@@ -599,30 +615,44 @@ section .innerContact .smallFooter:first-child {
 .experience-info p {
     line-height: 1.75;
     letter-spacing: .01em;
-    /* color: #888; */
+    color: #888;
     font-size: 16px;
 }
 
-.education-wrap {
-    background-color: #fff;
-    width: 600px;
-    min-height: 500px;
-    margin: 0 auto;
-    font-size: 12px;
-    }
-
-/* ---------------------------------------------------------- override bootstrap*/
-.row {
-    margin-right: 0px;
+.about-contact-wrapper {
+    position: relative;
+    padding: 100px 0;
+    background-color: #7BBAC4;
 }
 
+.socials {
+    margin-top: 50px;
+}
+
+.socials a {
+    font-size: 2vw;
+    color: #000;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+}
+/* ------------------------------------------------- override bootstrap*/
 
 
+
+/* education on about page */
 body {
 margin: 0;
 }
 
-
+.body-wrap {
+background-color: #fff;
+width: 600px;
+min-height: 500px;
+margin: 0 auto;
+font-size: 12px;
+}
 
 .pres-timeline {
 font-family: roboto, helvetica, sans-serif;
@@ -904,5 +934,14 @@ width: 100%;
 
     .title-bio span {
         font-size: 1.25rem;
+    }
+
+    .container-education, .education-wrapper {
+        width: unset;
+    }
+
+    .skills-wrap {
+        margin-top: 50px;
+        padding-bottom: 80px;
     }
 }
