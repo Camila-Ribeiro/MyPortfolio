@@ -199,6 +199,10 @@ padding-top: 60px;
     max-width: 1100px;
 }
 
+.projects p {
+    color: #888;
+}
+
 .container-flex {
     display: flex;
     z-index: 100;
@@ -216,9 +220,9 @@ padding-top: 60px;
     width: 100%;
 }
 
-.text-darkGrey {
+/* .text-darkGrey {
     color: #888;
-}
+} */
 
 .role {
     background-color: #e4e2e2;
@@ -344,10 +348,6 @@ padding-top: 60px;
     line-height: 1.75;
 }
 
-/* .mT-80 {
-    margin-top: 80px;
-} */
-
 .about-wrapper .heading:before {
     margin: 11px 10px 100px 0;
 }
@@ -356,7 +356,7 @@ padding-top: 60px;
 .contact-section {
     background-color: #390000;
     width: 100vw;
-    height: 100vh;
+    height: 70vh;
     color: white;
     padding-top: 200px;
 }
@@ -388,7 +388,7 @@ section .innerContact .row .col:first-child {
 }
 
 section .innerContact .row .col:last-child {
-    width: 40%;
+    /* width: 40%; */
     text-align: right;
 }
 
@@ -406,7 +406,7 @@ section .innerContact .row .col:last-child .label {
 }
 
 section .innerContact .row .col:last-child .socials a {
-    font-size: 1.75VW;
+    font-size: 20px;
     color: #fff;
     display: inline-block;
     margin-right: 1.38888889VW;
@@ -885,18 +885,6 @@ a:hover {
     color: #fff;
 }
 
-.socials {
-    margin-top: 50px;
-}
-
-.socials a {
-    font-size: 2vw;
-    color: #fff;
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    margin-right: 30px;
-}
 /* ------------------------------------------------- override bootstrap*/
 
 
@@ -922,6 +910,74 @@ a:hover {
 }
 
 @media (max-width:767px) {
+    /* hello section */
+    .skewX {
+        height: 150px;
+        width: unset;
+    }
+
+    /* portfolio section */
+    .projects {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .mT-80 {
+        margin-top: 80px;
+    }
+
+    .mob-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .container--projects {
+        padding-bottom: 60px;
+    }
+
+    .about-wrapper {
+        padding-top: 50px;
+    }
+
+    .about-section {
+        height: unset;
+    }
+    
+    /* contact section */
+    .contentWrapper {
+        padding: 0;
+    }
+
+    .smallFooter div {
+        font-size: small;
+    }
+
+    .contact-section {
+        padding-top: 150px;
+    }
+
+    /* .col, .titleInfo {
+        display: block;
+    } */
+
+    section .innerContact .row .col:last-child .label {
+        width: 150px;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .titleInfo {
+        font-size: 28px;
+        line-height: 32px;
+        width: 300px;
+    }
+    .socials {
+        margin-bottom: 50px;
+        text-align: left;
+    }
+    
+    .socials a i {
+        margin: 10px;
+    }
 
     /* about me page */
     .about-lines {
