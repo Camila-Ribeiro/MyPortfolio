@@ -29,7 +29,7 @@ def project_detail(project_name):
 
 @app.route("/about")
 def about():
-    return render_template("about.html")
+    return render_template("about.html", about=about)
 
 
 if __name__ == "__main__":

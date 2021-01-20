@@ -41,84 +41,81 @@
   </div>
 </div>
 <section  class="smooth portfolio-section">
-    <div class="container-wrapper pT">
-      
-      {% for project in portifolio %}
+  <div class="container-wrapper pT">
+    
+    {% for project in portifolio %}
 
-        <div class="container container--projects">
-          
-
-            {% if loop.index % 2 !=0 %}
-            <div class="row mob-reverse">
+      <div class="container container--projects">
+        
+        {% if loop.index % 2 !=0 %}
+          <div class="row mob-reverse">
             <div class="col-md-7 projects">
-                <h3> {{project.name }} </a></h3>
-                <p class="mt-4 text-darkGrey">
-                  {{ project.description }}
-                </p>
-                <div class="container-flex justify-content-start">
-                  {% for p in project.project_role %}
-                    <h5 class="role p-2">{{ p }}</h5>
-                  {% endfor %}
-                </div>
-                <div class="mT-80">
-                  <a href="/projects/{{ project.url }}">
-                    <div class="button hvr-sweep-up text-body">
-                      View Case Study
-                    </div>
-                  </a>
-                </div> 
-            </div>
+              <h3> {{project.name }} </a></h3>
+              <p class="mt-4 text-darkGrey">
+                {{ project.description }}
+              </p>
+              <div class="container-flex justify-content-start">
+                {% for p in project.project_role %}
+                  <h5 class="role p-2">{{ p }}</h5>
+                {% endfor %}
+              </div>
+              <div class="mT-80">
+                <a href="/projects/{{ project.url }}}">
+                  <div class="button hvr-sweep-up text-body">
+                    View Case Study
+                  </div>
+                </a>
+              </div> 
+            </div>  
             <div class="col-md-5">
                 <img class="img-responsive" src="{{ project.image_source }}">
             </div>
           </div>
-            {% else %}
-            <div class="row">
-              <div class="col-md-5">
-                <img class="img-responsive" src="{{ project.image_source }}">
+        {% else %}
+          <div class="row">
+            <div class="col-md-5">
+              <img class="img-responsive" src="{{ project.image_source }}">
             </div>
             <div class="col-md-7 projects">
-                <h3> {{project.name }} </a></h3>
-                <p class="mt-4 text-darkGrey">
-                  {{ project.description }}
-                </p>
-                <div class="container-flex justify-content-start">
-                  {% for p in project.project_role %}
-                    <h5 class="role p-2">{{ p }}</h5>
-                  {% endfor %}
-                </div>
-                <div class="mT-80">
-                  <a href="/projects/{{ project.url }}">
-                    <div class="button hvr-sweep-up text-body">
-                      View Case Study
-                    </div>
-                  </a>
-                </div>
-            </div>
-            </div>
-            
-            {% endif %}
-          
-        </div>
-      {% endfor %}
-    </div>
+              <h3> {{project.name }} </a></h3>
+              <p class="mt-4 text-darkGrey">
+                {{ project.description }}
+              </p>
+              <div class="container-flex justify-content-start">
+                {% for p in project.project_role %}
+                  <h5 class="role p-2">{{ p }}</h5>
+                {% endfor %}
+              </div>
+              <div class="mT-80">
+                <a href="/projects/{{ project.url }}">
+                  <div class="button hvr-sweep-up text-body">
+                    View Case Study
+                  </div>
+                </a>
+              </div>
+            </div>  
+          </div>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
 </section>
 
-<section id="about" class="smooth about-section">
-    <div class="container about-wrapper">
-      <h2 class="heading text-left text-uppercase w-100"> ABOUT ME </h2>
-      <h3 class="mt-2">UX Designer and Fullstack developer from Sao Paulo, Brazil.
-        Currently based in Dublin, Ireland.</h3>
-        <p class="mt-5">
-          <span> More than 15 years experience in customer facing industry with a focus in maintaining long-term relationships with clients and co-workers. Very patient, calm person with excellent communication and interpersonal skills. Strong Business Management experience having worked in a Salon Business environment which required a high level of attention to detail.</span>
-          <br>
-          <br>
-          <span> A vibrant and engaging personality and a drive to succeed with excellent organizational & analytical skills. I am currently a student of Full Stack Software Development at the Code Institute and Professional Diploma UX Design at UX Design Institute and expect to graduate (September 2020). During this time I updated my IT and User Experience skills. Now looking for a suitable Full Stack position that makes best use of my existing abilities and allows me to develop new skills.</span> 
-          <br>
-          <br>
-          <span> Read more about me <a href="{{ url_for('about') }}"> here. </a></span>
-      </p>
-    </div>
+<section id="about" class="about-section">
+  <div class="container about-wrapper">
+    <h2 class="heading text-left text-uppercase w-100"> ABOUT ME </h2>
+    <h3 class="mt-2">UX Designer and Fullstack developer from Sao Paulo, Brazil.
+      Currently based in Dublin, Ireland.</h3>
+    <p class="mt-5">
+      <span> More than 15 years experience in customer facing industry with a focus in maintaining long-term relationships with clients and co-workers. Very patient, calm person with excellent communication and interpersonal skills. Strong Business Management experience having worked in a Salon Business environment which required a high level of attention to detail.</span>
+      <br>
+      <br>
+      <span> A vibrant and engaging personality and a drive to succeed with excellent organizational & analytical skills. I am currently a student of Full Stack Software Development at the Code Institute and Professional Diploma UX Design at UX Design Institute and expect to graduate (September 2020). During this time I updated my IT and User Experience skills. Now looking for a suitable Full Stack position that makes best use of my existing abilities and allows me to develop new skills.</span> 
+      <br>
+      <br>
+      <span> Read more about me <a href="{{ url_for('about') }}"> here. </a></span>
+    </p>
+  </div>
 </section>
 
 <section id="contact" class="smooth contact-section">
