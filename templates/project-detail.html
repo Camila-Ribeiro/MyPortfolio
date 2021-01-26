@@ -1,14 +1,41 @@
 {% extends 'base.html' %}
 {% block content %}
 
-    <section>
-        <div>
-            <div class="container">
-                <div">
-                    <h1 class="text-center"> FEATURED PROJECTS</h1>
-                </div>
+<section>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>{{ project.url }}</h1>
+            <h3>Website</h3>
+        </div>
+    </div>
+    <div class="text-wrapper">
+        <div class="row pt-5">
+            <div class="col-2"></div>
+            <div class="col-10">
+                <h5>Website</h5>
             </div>
-        </div>  
-    </section>
+        </div>
+        <div class="row pt-2">
+            <div class="col-2"></div>
+            <div class="col-7">
+                <p>
+                    Flower Beauty and Nails it has been re-designed with a            
+                    fresh new look to catchy users attention and a better understanding of what the place can offer to the clients.
+                </p>
+            </div>
+            <div class="col-3">
+                <img class="img rellax" data-rellax-speed=".5" src="../static/img/device-1.svg" style="transform: translate3d(0px, 0px, 0px);">
+				<img class="img img-laptop rellax" data-rellax-speed="1" src="../static/img/device-2.svg" style="transform: translate3d(0px, 0px, 0px);">
+				<img class="img img-laptop rellax" data-rellax-speed="2" src="../static/img/device-3.svg" style="transform: translate3d(0px, 0px, 0px);">
+            </div>
+        </div> 
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-7 m-2 text-uppercase btn btn-border">
+                View Website
+            </div>
+        </div>
+    </div>
+</section>
     
 {% endblock %}

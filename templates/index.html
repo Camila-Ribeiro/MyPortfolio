@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% block content %}
 
-<section id="index" class="smooth hello-section">
+<section id="index" class="hello-section">
   <div class="top">
     <div class="container wrapper">
       <div class="introWrapper">
@@ -40,7 +40,7 @@
     <h2 class="heading text-left text-uppercase w-100"> My Projects </h2>
   </div>
 </div>
-<section  class="smooth portfolio-section">
+<section  class="portfolio-section">
   <div class="container-wrapper pT">
     
     {% for project in portifolio %}
@@ -60,7 +60,7 @@
                 {% endfor %}
               </div>
               <div class="mT-80">
-                <a href="/projects/{{ project.url }}}">
+                <a href="/projects/{{ project.url }}">
                   <div class="button hvr-sweep-up text-body">
                     View Case Study
                   </div>
@@ -118,7 +118,7 @@
   </div>
 </section>
 
-<section id="contact" class="smooth contact-section">
+<section id="contact" class="contact-section">
   <div class="contentWrapper">
     <div class="innerContact">
       <div class="row">
