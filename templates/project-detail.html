@@ -9,35 +9,35 @@
     </div>
     <div class="text-wrapper">
         <div class="row pt-5">
-            <div class="col-2"></div>
-            <div class="col-10 project-type">
-                <h5>Website</h5>
+            <div class="col-sm col-md-2"></div>
+            <div class="col-sm col-md-10 project-type">
+                <h5 class="pb-2">Website</h5>
                 <!-- <p class="date">JAN 2020</p> -->
             </div>
         </div>
-        <div class="row pt-2">
-            <div class="col-2"></div>
-            <div class="col-7">
+        <div class="row">
+            <div class="col-sm col-md-2"></div>
+            <div class="col-sm col-md-7">
                 <p class="mt-4">
                     Flower Beauty and Nails it has been re-designed with a            
                     fresh new look to catchy users attention and a better understanding of what the place can offer to the clients.
                 </p>
             </div>
-            <div class="col-3">
+            <div class="col-sm col-md-3">
                 <img class="img" data-rellax-speed=".5" src="../static/img/device-1.svg" style="transform: translate3d(0px, 0px, 0px);">
 				<img class="img img-laptop" data-rellax-speed="1" src="../static/img/device-2.svg" style="transform: translate3d(0px, 0px, 0px);">
 				<img class="img img-laptop" data-rellax-speed="2" src="../static/img/device-3.svg" style="transform: translate3d(0px, 0px, 0px);">
             </div>
         </div> 
         <div class="row">
-            <div class="col-2"></div>
-            <div class="col-7 m-2 text-uppercase btn btn-border">
+            <div class="col-sm col-md-2"></div>
+            <div class="col-sm col-md-7 m-2 text-uppercase btn btn-border">
                 View Website
             </div>
         </div>
         <div class="row">
-            <div class="col-2"></div>
-            <div class="col-7">
+            <div class="col-sm col-md-2"></div>
+            <div class="col-sm col-md-7">
                 <div class="container-flex justify-content-start">
                     <p class="mt-2 mr-3">Technology used</p>
                     {% for p in project.project_role %}
@@ -46,26 +46,60 @@
                 </div>
             </div>
         </div>
-        
-        <div class="container m-auto">
-            <div class="row m-5">
-                <div class="col-sm col-7 g-0">
-                    <img class="img-flower" data-rellax-speed=".5" src="../static/img/flower-beauty5.png" style="transform: translate3d(0px, 0px, 0px);">
-                </div>
-                <div class="col-sm col-5 g-0">
-                    <img class="img-flower img-2" data-rellax-speed=".5" src="../static/img/flower-beauty2.png" style="transform: translate3d(0px, 0px, 0px);">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm col-7 g-0">
-                    <img class="img-flower img-3" data-rellax-speed=".5" src="../static/img/flower-beauty3.png" style="transform: translate3d(0px, 0px, 0px);">
-                </div>
-                <div class="col-sm col-5 g-0">
-                    <img class="img-flower img-4" data-rellax-speed=".5" src="../static/img/flower-beauty4.png" style="transform: translate3d(0px, 0px, 0px);">
-                </div>
-            </div>
-        </div>
     </div>
+    <div class="container web-container">
+        <div class="row">
+            <div class="col-sm col-md-8">
+                <div class="desktop-flower">
+                    <img class="img-fluid" src="../static/img/Apple-iMac-Mockup-Flower_Beauty.jpg" alt="flower_beauty" />
+                </div>
+                <div class="mt-4 responsive-flower">
+                    <img class="img-fluid" data-rellax-speed=".5" src="../static/img/Digital-Mockup-Flower-Beauty.jpg" style="transform: translate3d(0px, 0px, 0px);">
+                </div>
+            </div>
+            <div class="col-sm col-md-4 mobile-services">
+                <div class="wrapper-sidebar p-2 m-t">
+                    <h3>Services Provided</h3>
+                <ul class="pl-2 pr-2 text-left list-unstyled">
+                    <li class="mb-2">
+                        <div class="container-icon">
+                            <img class="img-responsive" src="../static/img/icon-website-design.png" alt="Website Design" title="" scale="0">
+                        </div>
+                        <div class="container-title">Website Design</div>
+                    </li>
+                    <li class="mb-2">
+                        <div class="container-icon">
+                            <img class="img-responsive" src="../static/img/icon-responsive-website-design.png" alt="Responsive Website Design" title="" scale="0">
+                        </div>
+                        <div class="container-title">Responsive Website Design</div>
+                    </li>
+                    <li class="mb-2">
+                        <div class="container-icon">
+                            <img class="img-responsive" src="../static/img/icon-website-development.png" alt="Responsive Website Design" title="" scale="0">
+                        </div>
+                        <div class="container-title">Website Development Design</div>
+                    </li>
+                    <li class="mb-2">
+                        <div class="container-icon">
+                            <img class="img-responsive" src="../static/img/icon-social-media.png" alt="Responsive Website Design" title="" scale="0">
+                        </div>
+                        <div class="container-title">Social Media Integration</div>
+                    </li>
+                    <li class="mb-2">
+                        <div class="container-icon">
+                            <img class="img-responsive" src="../static/img/icon-social-media.png" alt="Responsive Website Design" title="" scale="0">
+                        </div>
+                        <div class="container-title">UX/Wireframe</div>
+                    </li>
+                </ul>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+   
 </section>
     
 {% endblock %}
