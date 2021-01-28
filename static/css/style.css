@@ -45,9 +45,6 @@ body {
 }
   
 /* Page content */
-/* .content {
-padding: 16px;
-} */
   
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
@@ -75,7 +72,6 @@ padding-top: 60px;
 }
 
 .camilaWrapper {
-    /* width: 100vw; */
     height: 80px;
 }
 
@@ -91,12 +87,6 @@ padding-top: 60px;
 .text-size {
     font-size: 4rem;
 }
-
-/* .box { 
-    position: relative;
-    width: 50px;
-    height: 20px;
-} */
 
 .box-underlay {
     /* width: 19%; */
@@ -325,13 +315,17 @@ padding-top: 60px;
 }
 
 /* --------------------------------------------------------------- project-detail page*/
+.content {
+    padding: 20px 20px 60px 20px;
+    margin-bottom: 50px;
+}
+
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/flower-beauty1.jpg);
     height: 100%;
-    background-attachment: fixed;
-    background-position: center top;
+    background-position: 50%;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     position: relative;
     height: 490px;
     width: 100%;
@@ -360,23 +354,6 @@ padding-top: 60px;
     color: white;
 }
 
-/* .txt-sect {
-text-align: center;
-position: relative;
-min-height: 200vh;
-padding: 60px;
-margin: auto;
-background-color: #e1e1e1;
-color: #ffffff;
-} */
-
-.text-wrapper {
-    /* padding-left: 5vw; */
-    /* padding-right: 5vw; */
-    padding-bottom: 60px;
-    width: 90vw;
-}
-
 .project-type:before {
     position: absolute;
     top: calc(50% - 1px);
@@ -385,10 +362,6 @@ color: #ffffff;
     width: 20px;
     height: 2px;
     background: rgba(246, 80, 38, 1);
-    /* -webkit-transition: all 200ms ease;
-    -moz-transition: all 200ms ease;
-    -ms-transition: all 200ms ease;
-    -o-transition: all 200ms ease; */
     transition: all 200ms ease;
 }
 
@@ -438,33 +411,9 @@ color: #ffffff;
     left: 0;
 }
 
-/* .img-flower {
-    max-width: 90%;
-    margin-bottom: 20px;
-}
-
-.img-2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-top: 300px;
-}
-
-.img-3 {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.img-4 {
-    bottom: 0;
-    right: 0;
-    margin-top: 300px;
-} */
-
 .web-container {
     width: 100%;
-    margin: 100px auto 200px;
+    margin: 50px auto;
 }
 
 .desktop-flower img, .responsive-flower img {
@@ -477,10 +426,11 @@ color: #ffffff;
 
 .wrapper-sidebar h3 {
     border-bottom: 1px solid rgba(246, 80, 38, 1);
-    margin-left: 20px;
+    margin: 0 20px 20px;
+    /* margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
+    margin-bottom: 20px; */
+    padding-bottom: 5px;
 }
 
 .wrapper-sidebar .container-icon {
@@ -500,12 +450,15 @@ color: #ffffff;
     position: relative;
 }
 
+.social-content ul li {
+    display: inline-block;
+    padding: 5px 20px;
+} 
 
+.performance img {
+    width: 500px;
+}
 
-
-/* .services {
-    margin: ;
-} */
 /* --------------------------------------------------------------- about section*/
 .about-section {
     background-color:#7BBAC4;
@@ -1203,9 +1156,23 @@ a:hover {
     }
 
     /* project-detail */
-    .text-wrapper {
+    .hero-image {
+        background-position: 70%;
+        background-size: cover;
+        height: 400px;
+    }
+
+    .hero-text {
+        top: 30%;
+    }
+    .content {
         margin: 0 auto;
     }
+
+    .web-container {
+        margin-top: 0 auto 50px;
+    }
+
     .desktop-flower img, .responsive-flower img {
         width: 100%;
     }

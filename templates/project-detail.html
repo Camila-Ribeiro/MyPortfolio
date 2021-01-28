@@ -1,23 +1,23 @@
 {% extends 'base.html' %}
 {% block content %}
 
-<section>
+<section">
     <div class="hero-image">
         <div class="hero-text">
             <h1>{{ project.name }}</h1>
         </div>
     </div>
-    <div class="text-wrapper">
+    <div class="container text-wrapper content">
         <div class="row pt-5">
-            <div class="col-sm col-md-2"></div>
+            <!-- <div class="col-sm col-md-2"></div> -->
             <div class="col-sm col-md-10 project-type">
                 <h5 class="pb-2">Website</h5>
                 <!-- <p class="date">JAN 2020</p> -->
             </div>
         </div>
         <div class="row">
-            <div class="col-sm col-md-2"></div>
-            <div class="col-sm col-md-7">
+            <!-- <div class="col-sm col-md-2"></div> -->
+            <div class="col-sm col-md-9">
                 <p class="mt-4">
                     Flower Beauty and Nails it has been re-designed with a            
                     fresh new look to catchy users attention and a better understanding of what the place can offer to the clients.
@@ -30,14 +30,14 @@
             </div>
         </div> 
         <div class="row">
-            <div class="col-sm col-md-2"></div>
-            <div class="col-sm col-md-7 m-2 text-uppercase btn btn-border">
+            <!-- <div class="col-sm col-md-2"></div> -->
+            <div class="col-sm col-md-9 m-2 text-uppercase btn btn-border">
                 View Website
             </div>
         </div>
         <div class="row">
-            <div class="col-sm col-md-2"></div>
-            <div class="col-sm col-md-7">
+            <!-- <div class="col-sm col-md-2"></div> -->
+            <div class="col-sm col-md-9">
                 <div class="container-flex justify-content-start">
                     <p class="mt-2 mr-3">Technology used</p>
                     {% for p in project.project_role %}
@@ -47,59 +47,93 @@
             </div>
         </div>
     </div>
-    <div class="container web-container">
+    <div class="container web-container content">
         <div class="row">
             <div class="col-sm col-md-8">
                 <div class="desktop-flower">
+                    <img class="img-fluid" data-rellax-speed=".5" src="../static/img/mockup-iphone-flower-beauty.jpg">
+                </div>
+                <div class="mt-4 responsive-flower">
                     <img class="img-fluid" src="../static/img/Apple-iMac-Mockup-Flower_Beauty.jpg" alt="flower_beauty" />
                 </div>
                 <div class="mt-4 responsive-flower">
-                    <img class="img-fluid" data-rellax-speed=".5" src="../static/img/Digital-Mockup-Flower-Beauty.jpg" style="transform: translate3d(0px, 0px, 0px);">
+                    <img class="img-fluid" data-rellax-speed=".5" src="../static/img/mockup-ipad-flower-beauty.jpg" style="transform: translate3d(0px, 0px, 0px);">
                 </div>
             </div>
             <div class="col-sm col-md-4 mobile-services">
-                <div class="wrapper-sidebar p-2 m-t">
+                <div class="wrapper-sidebar p-2">
                     <h3>Services Provided</h3>
-                <ul class="pl-2 pr-2 text-left list-unstyled">
-                    <li class="mb-2">
-                        <div class="container-icon">
-                            <img class="img-responsive" src="../static/img/icon-website-design.png" alt="Website Design" title="" scale="0">
-                        </div>
-                        <div class="container-title">Website Design</div>
-                    </li>
-                    <li class="mb-2">
-                        <div class="container-icon">
-                            <img class="img-responsive" src="../static/img/icon-responsive-website-design.png" alt="Responsive Website Design" title="" scale="0">
-                        </div>
-                        <div class="container-title">Responsive Website Design</div>
-                    </li>
-                    <li class="mb-2">
-                        <div class="container-icon">
-                            <img class="img-responsive" src="../static/img/icon-website-development.png" alt="Responsive Website Design" title="" scale="0">
-                        </div>
-                        <div class="container-title">Website Development Design</div>
-                    </li>
-                    <li class="mb-2">
-                        <div class="container-icon">
-                            <img class="img-responsive" src="../static/img/icon-social-media.png" alt="Responsive Website Design" title="" scale="0">
-                        </div>
-                        <div class="container-title">Social Media Integration</div>
-                    </li>
-                    <li class="mb-2">
-                        <div class="container-icon">
-                            <img class="img-responsive" src="../static/img/icon-social-media.png" alt="Responsive Website Design" title="" scale="0">
-                        </div>
-                        <div class="container-title">UX/Wireframe</div>
-                    </li>
-                </ul>
+                    <ul class="pl-2 pr-2 text-left list-unstyled">
+                        <li class="mb-2">
+                            <div class="container-icon">
+                                <img class="img-responsive" src="../static/img/icon-website-design.png" alt="Website Design" title="" scale="0">
+                            </div>
+                            <div class="container-title">Website Design</div>
+                        </li>
+                        <li class="mb-2">
+                            <div class="container-icon">
+                                <img class="img-responsive" src="../static/img/icon-responsive-website-design.png" alt="Responsive Website Design" title="" scale="0">
+                            </div>
+                            <div class="container-title">Responsive Website Design</div>
+                        </li>
+                        <li class="mb-2">
+                            <div class="container-icon">
+                                <img class="img-responsive" src="../static/img/icon-website-development.png" alt="Responsive Website Design" title="" scale="0">
+                            </div>
+                            <div class="container-title">Website Development Design</div>
+                        </li>
+                        <li class="mb-2">
+                            <div class="container-icon">
+                                <img class="img-responsive" src="../static/img/icon-social-media.png" alt="Responsive Website Design" title="" scale="0">
+                            </div>
+                            <div class="container-title">Social Media Integration</div>
+                        </li>
+                        <li class="mb-2">
+                            <div class="container-icon">
+                                <img class="img-responsive" src="../static/img/icon-social-media.png" alt="Responsive Website Design" title="" scale="0">
+                            </div>
+                            <div class="container-title">UX/Wireframe</div>
+                        </li>
+                    </ul>
                 </div>
-                
+                <div class="wrapper-sidebar mobile-services mt-5">
+                    <div class="wrapper-sidebar p-2 m-t">
+                        <h3>Share</h3>
+                        <div>
+                            <div class="social-content">
+                                <ul class="">
+                                    <li class="">
+                                        <a rel="nofollow" data-shared="sharing-facebook-760" class="" href="http://www.emilyridge.ie/web-developer-portfolio-galway/start-mesh-wordpress-website/?share=facebook&amp;nb=1" target="_blank" title="Click to share on Facebook"><i aria-hidden="true" class="fab fa-facebook"></i><span></span></a>
+                                    </li>
+                                    <li class="share-linkedin">
+                                        <a rel="nofollow" data-shared="sharing-linkedin-760" class="" href="http://www.emilyridge.ie/web-developer-portfolio-galway/start-mesh-wordpress-website/?share=linkedin&amp;nb=1" target="_blank" title="Click to share on LinkedIn"><i aria-hidden="true" class="fab fa-linkedin"></i><span></span></a>
+                                    </li>
+                                    <li class="share-twitter">
+                                        <a rel="nofollow" data-shared="sharing-twitter-760" class="" href="http://www.emilyridge.ie/web-developer-portfolio-galway/start-mesh-wordpress-website/?share=twitter&amp;nb=1" target="_blank" title="Click to share on Twitter"><i aria-hidden="true" class="fab fa-twitter"></i><span></span></a>
+                                    </li>
+                                    <li class="share-pinterest">
+                                        <a rel="nofollow" data-shared="sharing-pinterest-760" class="" href="http://www.emilyridge.ie/web-developer-portfolio-galway/start-mesh-wordpress-website/?share=pinterest&amp;nb=1" target="_blank" title="Click to share on Pinterest"><i aria-hidden="true" class="fab fa-pinterest"></i><span></span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            
         </div>
-        
     </div>
-   
+    <div class="container content mb-5">
+        <div class="row">
+            <!-- <div class="col-sm col-md-2"></div> -->
+            <div class="col-sm col-md-12 project-type">
+                <h5 class="pb-2">Performance</h5>
+            </div>
+            <div class="col-sm performance">
+                <img class="img-fluid mt-4" src="../static/img/flower-beauty-performance.png" alt="flower_beauty" />
+            </div>
+        </div>
+
+    </div>
 </section>
     
 {% endblock %}
