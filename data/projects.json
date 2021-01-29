@@ -7,10 +7,11 @@
         "Front-End"
       ],
       "work_involved": [
-        {"work": "Website Design", "icon": "../static/img/icon-website-design.png"},
-        {"work":"Responsive Website Design", "icon": "../static/img/icon-responsive-website-design.png"},
-        {"work":"Website Development Design", "icon": "../static/img/icon-website-development.png"},
-        {"work":"Social Media Integration", "icon": "../static/img/icon-social-media.png"}
+        {"work": "Website Design", "icon": "../static/img/icon-web-design.svg"},
+        {"work":"Responsive Website Design", "icon": "../static/img/icon-responsive-design.svg"},
+        {"work":"Website Development Design", "icon": "../static/img/icon-web-programming.svg"},
+        {"work":"Social Media Integration", "icon": "../static/img/icon-social-media.svg"},
+        {"work":"UX/Wireframe", "icon": "../static/img/icon-wireframe.svg"}
       ],
       "image_index": "static/img/index_flower_beauty.png",
       "image_hero": "static/img/flower-beauty1.jpg",

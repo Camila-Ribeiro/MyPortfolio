@@ -439,6 +439,9 @@ padding-top: 60px;
     display: inline-block;
 }
 
+.container-icon {
+    opacity: 0.5;
+}
 .img-responsive {
     max-width: 100%;
     height: auto;
