@@ -6,7 +6,18 @@
         "UX",
         "Front-End"
       ],
-      "image_source": "http://www.panhistoria.com/Stacks/Novels/characterimages/T27293.jpg",
+      "work_involved": [
+        {"work": "Website Design", "icon": "../static/img/icon-website-design.png"},
+        {"work":"Responsive Website Design", "icon": "../static/img/icon-responsive-website-design.png"},
+        {"work":"Website Development Design", "icon": "../static/img/icon-website-development.png"},
+        {"work":"Social Media Integration", "icon": "../static/img/icon-social-media.png"}
+      ],
+      "image_index": "static/img/index_flower_beauty.png",
+      "image_hero": "static/img/flower-beauty1.jpg",
+      "image_iphone": "../static/img/mockup-iphone-flower-beauty.jpg",
+      "image_desktop": "../static/img/Apple-iMac-Mockup-Flower_Beauty.jpg",
+      "image_ipad": "../static/img/mockup-ipad-flower-beauty.jpg",
+      "image_performance": "../static/img/flower-beauty-performance.png",
       "url": "flower-beauty"
     },
     {
