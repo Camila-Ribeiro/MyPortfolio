@@ -1,54 +1,88 @@
 [
-    {
-      "name": "Flower Beauty",
-      "description": "Flower Beauty and Nails is a beautician website designed for users that are looking for information on services offered, team members, prices and location. The website is simple and structured in a way that is easy to navigate and find the information needed. It was redesigned from and old version (https://flowerbeautyandnails.wordpress.com/).",
-      "project_role": [
-        "UX",
-        "Front-End"
-      ],
-      "work_involved": [
-        {"work": "Website Design", "icon": "../static/img/icon-web-design.svg"},
-        {"work":"Responsive Website Design", "icon": "../static/img/icon-responsive-design.svg"},
-        {"work":"Website Development Design", "icon": "../static/img/icon-web-programming.svg"},
-        {"work":"Social Media Integration", "icon": "../static/img/icon-social-media.svg"},
-        {"work":"UX/Wireframe", "icon": "../static/img/icon-wireframe.svg"}
-      ],
-      "image_index": "static/img/index_flower_beauty.png",
-      "image_hero": "static/img/flower-beauty1.jpg",
-      "image_iphone": "../static/img/mockup-iphone-flower-beauty.jpg",
-      "image_desktop": "../static/img/Apple-iMac-Mockup-Flower_Beauty.jpg",
-      "image_ipad": "../static/img/mockup-ipad-flower-beauty.jpg",
-      "image_performance": "../static/img/flower-beauty-performance.png",
-      "url": "flower-beauty"
-    },
-    {
-      "name": "My Cookbook",
-      "description": "My Cookbook is an online web application designed for users with interest in gathering information about recipes. It was built using Python - programming language, Flask - which is a Python micro framework and MongoDB Atlas - a document-based database.",
-      "project_role": [
-        "UX",
-        "Front-End"
-      ],
-      "image_source": "http://www.panhistoria.com/Stacks/Novels/characterimages/T27293.jpg",
-      "url": "my-cookbook"
-    },
-    {
-      "name": "Curious World",
-      "description": "Curious World is a website designed for users with interest in find out information about hotels, restaurants and museums across different cities all over the world. It offers photos, reviews, ratings, maps, websites and phone numbers. The website is simple and structured in a way that is easy to navigate and find the information needed. It was designed based on database from Foursquare API.",
-      "project_role": [
-        "UX",
-        "Fullstack"
-      ],
-      "image_source": "http://www.panhistoria.com/Stacks/Novels/characterimages/T27293.jpg",
-      "url": "curious-world"
-    },
-    {
-      "name": "Body Balance",
-      "description": "Body Balance is an e-commerce web application designed for users with interest in fitness & healthy lifestyle offering Nutritional Plan, Gym Equipments & Activewear available to purchase. It's designed using CRUD operations, built using Python and Django.",
-      "project_role": [
-        "UX",
-        "Fullstack"
-      ],
-      "image_source": "http://www.panhistoria.com/Stacks/Novels/characterimages/T27293.jpg",
-      "url": "body-balance"
-    }
-  ]
+  {
+    "name": "Body Balance",
+    "description": "Body Balance is an e-commerce web application designed for users with interest in fitness & healthy lifestyle offering Nutritional Plan, Gym Equipments & Activewear available to purchase. It's designed using CRUD operations, built using Python and Django.",
+    "project_role": [
+      "UX",
+      "Fullstack"
+    ],
+    "work_involved": [
+      {"work": "Website Design", "icon": "../static/img/icon-web-design.svg"},
+      {"work":"Responsive Website Design", "icon": "../static/img/icon-responsive-design.svg"},
+      {"work":"Website Development Design", "icon": "../static/img/icon-web-programming.svg"},
+      {"work":"eCommerce Solution", "icon": "../static/img/icon-ecommerce.svg"},
+      {"work":"UX/Wireframe", "icon": "../static/img/icon-wireframe.svg"}
+    ],
+    "image_index": "../static/img/index-body-balance.png",
+    "image_hero": "static/img/flower-beauty1.jpg",
+    "image_iphone": "../static/img/mockup-iphone-flower-beauty.jpg",
+    "image_desktop": "../static/img/Apple-iMac-Mockup-Flower_Beauty.jpg",
+    "image_ipad": "../static/img/mockup-ipad-flower-beauty.jpg",
+    "image_performance": "../static/img/flower-beauty-performance.png",
+    "url": "body-balance"
+  },
+  {
+    "name": "Curious World",
+    "description": "Curious World is a website designed for users with interest in find out information about hotels, restaurants and museums across different cities all over the world. It offers photos, reviews, ratings, maps, websites and phone numbers. It is designed based on database from Foursquare API.",
+    "project_role": [
+      "UX",
+      "Fullstack"
+    ],
+    "work_involved": [
+      {"work": "Website Design", "icon": "../static/img/icon-web-design.svg"},
+      {"work":"Responsive Website Design", "icon": "../static/img/icon-responsive-design.svg"},
+      {"work":"Website Development Design", "icon": "../static/img/icon-web-programming.svg"},
+      {"work":"UX/Wireframe", "icon": "../static/img/icon-wireframe.svg"}
+    ],
+    "image_index": "../static/img/index-curious-world.png",
+    "image_hero": "static/img/flower-beauty1.jpg",
+    "image_iphone": "../static/img/mockup-iphone-flower-beauty.jpg",
+    "image_desktop": "../static/img/Apple-iMac-Mockup-Flower_Beauty.jpg",
+    "image_ipad": "../static/img/mockup-ipad-flower-beauty.jpg",
+    "image_performance": "../static/img/flower-beauty-performance.png",
+    "url": "curious-world"
+  },
+  {
+    "name": "My Cookbook",
+    "description": "My Cookbook is an online web application designed for users with interest in gathering information about recipes. It was built using Python - programming language, Flask - which is a Python micro framework and MongoDB Atlas - a document-based database.",
+    "project_role": [
+      "UX",
+      "Front-End"
+    ],
+    "work_involved": [
+      {"work": "Website Design", "icon": "../static/img/icon-web-design.svg"},
+      {"work":"Responsive Website Design", "icon": "../static/img/icon-responsive-design.svg"},
+      {"work":"Website Development Design", "icon": "../static/img/icon-web-programming.svg"},
+      {"work":"UX/Wireframe", "icon": "../static/img/icon-wireframe.svg"}
+    ],
+    "image_index": "../static/img/index-my-cookbook.png",
+    "image_hero": "static/img/flower-beauty1.jpg",
+    "image_iphone": "../static/img/mockup-iphone-flower-beauty.jpg",
+    "image_desktop": "../static/img/Apple-iMac-Mockup-Flower_Beauty.jpg",
+    "image_ipad": "../static/img/mockup-ipad-flower-beauty.jpg",
+    "image_performance": "../static/img/flower-beauty-performance.png",
+    "url": "my-cookbook"
+  },
+  {
+    "name": "Flower Beauty",
+    "description": "Flower Beauty and Nails is a beautician website designed for users that are looking for information on services offered, team members, prices and location. The website is simple and structured in a way that is easy to navigate and find the information needed. It was redesigned from and old version (https://flowerbeautyandnails.wordpress.com/).",
+    "project_role": [
+      "UX",
+      "Front-End"
+    ],
+    "work_involved": [
+      {"work": "Website Design", "icon": "../static/img/icon-web-design.svg"},
+      {"work":"Responsive Website Design", "icon": "../static/img/icon-responsive-design.svg"},
+      {"work":"Website Development Design", "icon": "../static/img/icon-web-programming.svg"},
+      {"work":"Social Media Integration", "icon": "../static/img/icon-social-media.svg"},
+      {"work":"UX/Wireframe", "icon": "../static/img/icon-wireframe.svg"}
+    ],
+    "image_index": "static/img/index_flower_beauty.png",
+    "image_hero": "static/img/flower-beauty1.jpg",
+    "image_iphone": "../static/img/mockup-iphone-flower-beauty.jpg",
+    "image_desktop": "../static/img/Apple-iMac-Mockup-Flower_Beauty.jpg",
+    "image_ipad": "../static/img/mockup-ipad-flower-beauty.jpg",
+    "image_performance": "../static/img/flower-beauty-performance.png",
+    "url": "flower-beauty"
+  } 
+]
