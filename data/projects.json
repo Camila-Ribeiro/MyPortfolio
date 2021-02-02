@@ -13,11 +13,14 @@
       {"work":"eCommerce Solution", "icon": "../static/img/icon-ecommerce.svg"},
       {"work":"UX/Wireframe", "icon": "../static/img/icon-wireframe.svg"}
     ],
+    "technology": [
+      "HTML5/CSS3",
+      "Django"
+    ],
     "image_index": "../static/img/index-body-balance.png",
-    "image_hero": "static/img/flower-beauty1.jpg",
-    "image_iphone": "../static/img/mockup-iphone-flower-beauty.jpg",
-    "image_desktop": "../static/img/Apple-iMac-Mockup-Flower_Beauty.jpg",
-    "image_ipad": "../static/img/mockup-ipad-flower-beauty.jpg",
+    "image_iphone": "../static/img/mockup-iphone-body-balance.jpg",
+    "image_desktop": "../static/img/",
+    "image_ipad": "../static/img/mockup-ipad-body-balance.jpg",
     "image_performance": "../static/img/flower-beauty-performance.png",
     "url": "body-balance"
   },
@@ -34,12 +37,15 @@
       {"work":"Website Development Design", "icon": "../static/img/icon-web-programming.svg"},
       {"work":"UX/Wireframe", "icon": "../static/img/icon-wireframe.svg"}
     ],
+    "technology": [
+      "HTML5/CSS3",
+      "Django"
+    ],
     "image_index": "../static/img/index-curious-world.png",
-    "image_hero": "static/img/flower-beauty1.jpg",
-    "image_iphone": "../static/img/mockup-iphone-flower-beauty.jpg",
-    "image_desktop": "../static/img/Apple-iMac-Mockup-Flower_Beauty.jpg",
-    "image_ipad": "../static/img/mockup-ipad-flower-beauty.jpg",
-    "image_performance": "../static/img/flower-beauty-performance.png",
+    "image_iphone": "../static/img/",
+    "image_desktop": "../static/img/mockup-macbook-curious-world.jpg",
+    "image_ipad": "../static/img/",
+    "image_performance": "../static/img/",
     "url": "curious-world"
   },
   {
@@ -55,12 +61,15 @@
       {"work":"Website Development Design", "icon": "../static/img/icon-web-programming.svg"},
       {"work":"UX/Wireframe", "icon": "../static/img/icon-wireframe.svg"}
     ],
+    "technology": [
+      "HTML5/CSS3",
+      "Django"
+    ],
     "image_index": "../static/img/index-my-cookbook.png",
-    "image_hero": "static/img/flower-beauty1.jpg",
-    "image_iphone": "../static/img/mockup-iphone-flower-beauty.jpg",
-    "image_desktop": "../static/img/Apple-iMac-Mockup-Flower_Beauty.jpg",
-    "image_ipad": "../static/img/mockup-ipad-flower-beauty.jpg",
-    "image_performance": "../static/img/flower-beauty-performance.png",
+    "image_iphone": "../static/img/mockup-iphone-my-cookbook.jpg",
+    "image_desktop": "../static/img/mockup-desktop-my-cookbook.jpg",
+    "image_ipad": "../static/img/mockup-ipad-my-cookbook.jpg",
+    "image_performance": "../static/img/",
     "url": "my-cookbook"
   },
   {
@@ -77,10 +86,13 @@
       {"work":"Social Media Integration", "icon": "../static/img/icon-social-media.svg"},
       {"work":"UX/Wireframe", "icon": "../static/img/icon-wireframe.svg"}
     ],
+    "technology": [
+      "HTML5/CSS3",
+      "Django"
+    ],
     "image_index": "static/img/index_flower_beauty.png",
-    "image_hero": "static/img/flower-beauty1.jpg",
     "image_iphone": "../static/img/mockup-iphone-flower-beauty.jpg",
-    "image_desktop": "../static/img/Apple-iMac-Mockup-Flower_Beauty.jpg",
+    "image_desktop": "../static/img/mockup-desktop-flower-beauty.jpg",
     "image_ipad": "../static/img/mockup-ipad-flower-beauty.jpg",
     "image_performance": "../static/img/flower-beauty-performance.png",
     "url": "flower-beauty"

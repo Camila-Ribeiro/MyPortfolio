@@ -38,7 +38,7 @@
             <!-- <div class="col-sm col-md-2"></div> -->
             <div class="col-sm col-md-9">
                 <div class="container-flex justify-content-start">
-                    <p class="mr-3">Technology used</p>
+                    <p class="mr-3">Roles</p>
                     {% for p in project.project_role %}
                       <h5 class="role p-2">{{ p }}</h5>
                     {% endfor %}
@@ -76,6 +76,18 @@
                         {% endfor %}
 
                     </ul>
+                </div>
+                <div class="wrapper-sidebar mobile-services mt-5">
+                    <div class="wrapper-sidebar p-2">
+                        <h3>Technology Used</h3>
+                            <div class="container-flex justify-content-start">
+                                
+                                {% for t in project.technology %}
+                                  <h5 class="role p-2">{{ t }}</h5>
+                                {% endfor %}
+                            </div>
+                        </ul>
+                    </div>
                 </div>
                 <div class="wrapper-sidebar mobile-services mt-5">
                     <div class="wrapper-sidebar p-2 m-t">
