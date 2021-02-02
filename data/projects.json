@@ -15,38 +15,29 @@
     ],
     "technology": [
       "HTML5/CSS3",
-      "Django"
+      "JS/JQuery",
+      "Python",
+      "Django",
+      "JSON",
+      "Flask",
+      "Jinja",
+      "Git",
+      "Command Line",
+      "Bootstrap",
+      "Django",
+      "Heroku",
+      "AWS-S3",
+      "Stripe API",
+      "PostgresSQL",
+      "SQLite"
+
     ],
     "image_index": "../static/img/index-body-balance.png",
     "image_iphone": "../static/img/mockup-iphone-body-balance.jpg",
-    "image_desktop": "../static/img/",
+    "image_desktop": "../static/img/mockup-browser-body-balance.jpg",
     "image_ipad": "../static/img/mockup-ipad-body-balance.jpg",
-    "image_performance": "../static/img/flower-beauty-performance.png",
+    "image_performance": "../static/img/performance-body-balance.png",
     "url": "body-balance"
-  },
-  {
-    "name": "Curious World",
-    "description": "Curious World is a website designed for users with interest in find out information about hotels, restaurants and museums across different cities all over the world. It offers photos, reviews, ratings, maps, websites and phone numbers. It is designed based on database from Foursquare API.",
-    "project_role": [
-      "UX",
-      "Fullstack"
-    ],
-    "work_involved": [
-      {"work": "Website Design", "icon": "../static/img/icon-web-design.svg"},
-      {"work":"Responsive Website Design", "icon": "../static/img/icon-responsive-design.svg"},
-      {"work":"Website Development Design", "icon": "../static/img/icon-web-programming.svg"},
-      {"work":"UX/Wireframe", "icon": "../static/img/icon-wireframe.svg"}
-    ],
-    "technology": [
-      "HTML5/CSS3",
-      "Django"
-    ],
-    "image_index": "../static/img/index-curious-world.png",
-    "image_iphone": "../static/img/",
-    "image_desktop": "../static/img/mockup-macbook-curious-world.jpg",
-    "image_ipad": "../static/img/",
-    "image_performance": "../static/img/",
-    "url": "curious-world"
   },
   {
     "name": "My Cookbook",
@@ -63,7 +54,19 @@
     ],
     "technology": [
       "HTML5/CSS3",
-      "Django"
+      "JS/JQuery",
+      "JSON",
+      "Flask",
+      "Flask Py-Mongo",
+      "Heroku",
+      "MongoDB Atlas",
+      "Python",
+      "PyMongo",
+      "Jinja",
+      "Git",
+      "Command Line",
+      "Bootstrap",
+      "Spoonacular API"
     ],
     "image_index": "../static/img/index-my-cookbook.png",
     "image_iphone": "../static/img/mockup-iphone-my-cookbook.jpg",
@@ -71,6 +74,35 @@
     "image_ipad": "../static/img/mockup-ipad-my-cookbook.jpg",
     "image_performance": "../static/img/",
     "url": "my-cookbook"
+  },
+  {
+    "name": "Curious World",
+    "description": "Curious World is a website designed for users with interest in find out information about hotels, restaurants and museums across different cities all over the world. It offers photos, reviews, ratings, maps, websites and phone numbers. It is designed based on database from Foursquare API.",
+    "project_role": [
+      "UX",
+      "Fullstack"
+    ],
+    "work_involved": [
+      {"work": "Website Design", "icon": "../static/img/icon-web-design.svg"},
+      {"work":"Responsive Website Design", "icon": "../static/img/icon-responsive-design.svg"},
+      {"work":"Website Development Design", "icon": "../static/img/icon-web-programming.svg"},
+      {"work":"UX/Wireframe", "icon": "../static/img/icon-wireframe.svg"}
+    ],
+    "technology": [
+      "HTML5/CSS3",
+      "JS/JQuery",
+      "Jasmine",
+      "Jasmine-JQuery",
+      "Git",
+      "Command Line",
+      "Bootstrap"
+    ],
+    "image_index": "../static/img/index-curious-world.png",
+    "image_iphone": "../static/img/mockup-iphone-curious-world.jpg",
+    "image_desktop": "../static/img/mockup-macbook-curious-world.jpg",
+    "image_ipad": "../static/img/mockup-ipad-curious-world.jpg",
+    "image_performance": "../static/img/",
+    "url": "curious-world"
   },
   {
     "name": "Flower Beauty",
@@ -88,13 +120,13 @@
     ],
     "technology": [
       "HTML5/CSS3",
-      "Django"
+      "Bootstrap"
     ],
     "image_index": "static/img/index_flower_beauty.png",
     "image_iphone": "../static/img/mockup-iphone-flower-beauty.jpg",
     "image_desktop": "../static/img/mockup-desktop-flower-beauty.jpg",
     "image_ipad": "../static/img/mockup-ipad-flower-beauty.jpg",
-    "image_performance": "../static/img/flower-beauty-performance.png",
+    "image_performance": "../static/img/performance-flower-beauty.png",
     "url": "flower-beauty"
   } 
 ]

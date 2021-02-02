@@ -64,7 +64,7 @@
             <div class="col-sm col-md-4 mobile-services">
                 <div class="wrapper-sidebar p-2">
                     <h3>Work Involved</h3>
-                    <ul class="pl-2 pr-2 text-left list-unstyled">
+                    <ul class="p-3 text-left list-unstyled">
 
                         {% for work in project.work_involved %}
                         <li class="mb-3">
@@ -80,13 +80,20 @@
                 <div class="wrapper-sidebar mobile-services mt-5">
                     <div class="wrapper-sidebar p-2">
                         <h3>Technology Used</h3>
-                            <div class="container-flex justify-content-start">
-                                
-                                {% for t in project.technology %}
-                                  <h5 class="role p-2">{{ t }}</h5>
-                                {% endfor %}
-                            </div>
-                        </ul>
+                        <div class="p-3">
+                            {% for tec in project.technology | batch(3) %}
+                            <div class="d-flex">
+                                {% for t in tec %}
+                                    <div class="container-flex justify-content-start">
+                                        <h5 class="role p-2"> {{ t }}</h5>
+                                    </div>
+                                {% endfor %} 
+                            </div> 
+                        {% endfor %} 
+
+                        </div>        
+                        
+                              
                     </div>
                 </div>
                 <div class="wrapper-sidebar mobile-services mt-5">
