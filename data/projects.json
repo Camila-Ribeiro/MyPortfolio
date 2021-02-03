@@ -93,9 +93,10 @@
       "JS/JQuery",
       "Jasmine",
       "Jasmine-JQuery",
+      "Bootstrap",
       "Git",
-      "Command Line",
-      "Bootstrap"
+      "Command Line"
+      
     ],
     "image_index": "../static/img/index-curious-world.png",
     "image_iphone": "../static/img/mockup-iphone-curious-world.jpg",
