@@ -2,7 +2,8 @@ import os
 import json
 from flask import Flask, render_template, request
 
-app = Flask(__name__, template_folder='templates')
+app = Flask(__name__)
+app.secret_key = 'some_secret'
 
 @app.route("/")
 def index():
