@@ -5,14 +5,33 @@ $(document).ready(function() {
           var dest=0;
           if($(this.hash).offset().top > $(document).height()-$(window).height()){
                dest=$(document).height()-$(window).height();
+               
           }else{
                dest=$(this.hash).offset().top;
           }
           //go to destination
           $('html,body').animate({scrollTop:dest}, 1000,'swing');
+  
      });
-
+     var setDefaultActive = function() {
+      var path = window.location.pathname;
+      console.log(path)
+      var element = $("ul.navbar-nav li a[href='" + path + "']");
+    console.log(element)
+      element.addClass("active");
+    }
+    
+    setDefaultActive();
+   
 });
+$(function(){
+  $('#navbar a').click(function () {
+      $('#navbar a').removeClass('active');
+      $(this).addClass('active');
+   });
+});
+
+
 
 (function() {
 

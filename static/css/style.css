@@ -25,6 +25,10 @@ body {
     margin: 11px 10px 0 15px;
 }
 
+#navbar li a.active {
+    color:  rgb(200, 50, 50);
+} 
+
 /* ----------------------------------------------------------- navigation */
 
 /* Style the navbar */
