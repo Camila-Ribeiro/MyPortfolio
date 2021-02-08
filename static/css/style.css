@@ -75,7 +75,7 @@ padding-top: 60px;
     margin-bottom: 70px;
 }
 
-.camilaWrapper {
+.camila-wrapper {
     height: 80px;
 }
 
@@ -124,7 +124,7 @@ padding-top: 60px;
     border-top: 4px solid red;
     opacity: 0.8;
     width: 800px;
-    margin-left: 82px;
+    margin: 0 0 0 82px;
 }
 
 .top {
@@ -1047,6 +1047,10 @@ a:hover {
 
 /* -------------------------------------------------------------- Media Queries */
 @media (max-width:991px) {
+    /* hello section */
+    .border-B {
+        width: 90%;
+    }
     
     /* about me page */
     .container-experience-skills {
@@ -1068,6 +1072,39 @@ a:hover {
     .skewX {
         height: 150px;
         width: unset;
+    }
+
+    .wrapper {
+        padding-top: 200px;
+    }
+
+    .name-c {
+        margin-left: 30px;
+    }
+
+    .name-r {
+        margin-left: 30px;
+    }
+
+    .responsive-img {
+        background-image: url(../img/plain.jpg) !important;
+        background-size: cover;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        overflow: hidden;
+        z-index: -1000;
+    }
+
+    .fullscreen-bg video { 
+        display: none;
+    }
+
+    .border-B {
+        width: unset;
+        margin-top: 100px;
     }
 
     /* portfolio section */
