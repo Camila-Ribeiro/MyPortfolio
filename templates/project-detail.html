@@ -9,14 +9,12 @@
     </div>
     <div class="container text-wrapper content">
         <div class="row pt-5">
-            <!-- <div class="col-sm col-md-2"></div> -->
             <div class="col-sm col-md-10 project-type">
                 <h5 class="pb-2">Website</h5>
                 <!-- <p class="date">JAN 2020</p> -->
             </div>
         </div>
         <div class="row">
-            <!-- <div class="col-sm col-md-2"></div> -->
             <div class="col-sm col-md-9">
                 <p class="mt-4">
                     {{ project.description }}
@@ -29,13 +27,13 @@
             </div>
         </div> 
         <div class="row">
-            <!-- <div class="col-sm col-md-2"></div> -->
-            <div class="col-sm col-md-9 m-2 text-uppercase btn btn-border">
-                View Website
+            <div class="col-sm col-md-9 mb-2">
+                <form method="get" action="{{ project.website }}">
+                    <button class="text-uppercase btn btn-border w-100" type="submit">View Website</button>
+                </form>
             </div>
         </div>
         <div class="row">
-            <!-- <div class="col-sm col-md-2"></div> -->
             <div class="col-sm col-md-9">
                 <div class="container-flex justify-content-start">
                     <p class="mr-3">Roles</p>
@@ -46,7 +44,6 @@
             </div>
         </div>
     </div>
-
     <div class="container web-container content">
         <div class="row">
             <div class="col-sm col-md-8">
@@ -65,16 +62,14 @@
                 <div class="wrapper-sidebar p-2">
                     <h3>Work Involved</h3>
                     <ul class="p-3 text-left list-unstyled">
-
                         {% for work in project.work_involved %}
-                        <li class="mb-3">
-                            <div class="container-icon">
-                                <img class="img-responsive" src="{{ work['icon'] }}" alt="Website Design" title="" scale="0">
-                            </div>
-                            <div class="container-title">{{ work['work'] }}</div>
-                        </li>
+                            <li class="mb-3">
+                                <div class="container-icon">
+                                    <img class="img-responsive" src="{{ work['icon'] }}" alt="Website Design" title="" scale="0">
+                                </div>
+                                <div class="container-title">{{ work['work'] }}</div>
+                            </li>
                         {% endfor %}
-
                     </ul>
                 </div>
                 <div class="wrapper-sidebar mobile-services mt-5">
@@ -82,18 +77,15 @@
                         <h3>Technology Used</h3>
                         <div class="p-3">
                             {% for tec in project.technology | batch(3) %}
-                            <div class="d-flex">
-                                {% for t in tec %}
-                                    <div class="container-flex justify-content-start">
-                                        <h5 class="role p-2"> {{ t }}</h5>
-                                    </div>
-                                {% endfor %} 
-                            </div> 
-                        {% endfor %} 
-
-                        </div>        
-                        
-                              
+                                <div class="d-flex">
+                                    {% for t in tec %}
+                                        <div class="container-flex justify-content-start">
+                                            <h5 class="role p-2"> {{ t }}</h5>
+                                        </div>
+                                    {% endfor %} 
+                                </div> 
+                            {% endfor %} 
+                        </div>      
                     </div>
                 </div>
                 <div class="wrapper-sidebar mobile-services mt-5">
@@ -122,7 +114,6 @@
             </div>
         </div>
     </div>
-  
     <div class="container content mb-5">
         <div class="row">
             <!-- <div class="col-sm col-md-2"></div> -->
@@ -133,7 +124,6 @@
                 <img class="img-fluid mt-4" src="{{ project.image_performance }}" alt="Flower Beauty performance on Lighthouse Devtools" />
             </div>
         </div>
-
     </div>
 </section>
     

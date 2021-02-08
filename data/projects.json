@@ -37,6 +37,7 @@
     "image_desktop": "../static/img/mockup-browser-body-balance.jpg",
     "image_ipad": "../static/img/mockup-ipad-body-balance.jpg",
     "image_performance": "../static/img/performance-body-balance.png",
+    "website": "https://body-balance-ms4.herokuapp.com/",
     "url": "body-balance"
   },
   {
@@ -73,6 +74,7 @@
     "image_desktop": "../static/img/mockup-desktop-my-cookbook.jpg",
     "image_ipad": "../static/img/mockup-ipad-my-cookbook.jpg",
     "image_performance": "../static/img/",
+    "website": "https://my-cookbook-milestone-project.herokuapp.com/",
     "url": "my-cookbook"
   },
   {
@@ -103,6 +105,7 @@
     "image_desktop": "../static/img/mockup-macbook-curious-world.jpg",
     "image_ipad": "../static/img/mockup-ipad-curious-world.jpg",
     "image_performance": "../static/img/",
+    "website": "https://camila-ribeiro.github.io/CuriousWorld-MilestoneProject/",
     "url": "curious-world"
   },
   {
@@ -128,6 +131,7 @@
     "image_desktop": "../static/img/mockup-desktop-flower-beauty.jpg",
     "image_ipad": "../static/img/mockup-ipad-flower-beauty.jpg",
     "image_performance": "../static/img/performance-flower-beauty.png",
+    "website": "https://camila-ribeiro.github.io/Flower-Beauty_Milestone-Project/",
     "url": "flower-beauty"
   } 
 ]
