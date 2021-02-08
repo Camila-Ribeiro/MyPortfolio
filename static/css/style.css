@@ -65,7 +65,6 @@ padding-top: 60px;
 /* --------------------------------------------------------------- hello section*/
 .hello-section {
     font-weight: 100;
-    /* background-color: #fff; */
     height: 100vh;
     width: 100vw;
 }
@@ -89,42 +88,44 @@ padding-top: 60px;
 }
 
 .text-size {
-    font-size: 4rem;
+    font-size: 2.5rem;
 }
 
-.box-underlay {
-    /* width: 19%; */
-    /* height: 20%;            
-    position: absolute; */
-    /* top: 0;
-    left: 0; */
-    opacity: 0.8;
-    /* background-color: red;   */
+.name-c {
+    font-size: 2.5rem;
+}
+
+.box {
+    padding-left: 0;
+}
+.box div {
+    overflow: hidden;
+    height: auto;
+}
+
+.box h2 {
+   margin-bottom: 0;
+   margin-top: 5px;
+}
+
+.border-B p {
+    font-size: 20px;
 }
 
 .animate__animated.animate__slideInUp {
     --animate-duration: 2s;
 }
-.textIm {
-    /* width: 200px; */
-    z-index: 9;
-    padding-left: 20px;
-    /* margin-left: 5px; */
-    padding-right: 0px;
-    height: 80px;
-    margin-right: 22px;
-}
 
-.textName {
-    /* border-bottom: 4px solid #111; */
-    height: 80px;
+.text-Im {
+    padding-left: 20px;
+    padding-right: 0px;
 }
 
 .border-B {
     border-top: 4px solid red;
     opacity: 0.8;
-    width: 800px;
-    margin: 0 0 0 82px;
+    width: 90%;
+    /* margin: 0 0 0 82px; */
 }
 
 .top {
@@ -181,6 +182,10 @@ padding-top: 60px;
 }
 
 /* ----------------------------------------------------------- portfolio section*/
+.mT-80 {
+    margin-top: 80px;
+}
+
 .portfolio-section {
     background-color: #ffffff;
     color: black;
@@ -1048,8 +1053,49 @@ a:hover {
 /* -------------------------------------------------------------- Media Queries */
 @media (max-width:991px) {
     /* hello section */
+    .hello-section {
+        height: 70vh;
+    }
+    
+    .wrapper {
+        padding-top: 200px;
+    }
+
+    .text-Im {
+        /* padding-left: 30px; */
+        margin-right: 20px;
+    }
+    
+    .text-size {
+        font-size: 2.5rem;
+    }
+
+    .name-c {
+        font-size: 2.5rem;
+    }
+
+    .responsive-img {
+        background-image: url(../img/plain.jpg) !important;
+        background-size: cover;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        overflow: hidden;
+        z-index: -1000;
+    }
+
+    .fullscreen-bg video { 
+        display: none;
+    }
+
     .border-B {
-        width: 90%;
+        margin-left: 0;
+    }
+    
+    .border-B p {
+        font-size: 15px;
     }
     
     /* about me page */
@@ -1074,47 +1120,21 @@ a:hover {
         width: unset;
     }
 
-    .wrapper {
-        padding-top: 200px;
-    }
-
+    /* hello section */
     .name-c {
-        margin-left: 30px;
-    }
-
-    .name-r {
-        margin-left: 30px;
-    }
-
-    .responsive-img {
-        background-image: url(../img/plain.jpg) !important;
-        background-size: cover;
-        position: fixed;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        overflow: hidden;
-        z-index: -1000;
-    }
-
-    .fullscreen-bg video { 
-        display: none;
+        margin-left: 10%;
+        font-size: 2.5rem;
     }
 
     .border-B {
         width: unset;
-        margin-top: 100px;
+        margin: 0 0 0 10%;
     }
 
     /* portfolio section */
     .projects {
         margin-top: 20px;
         margin-bottom: 50px;
-    }
-
-    .mT-80 {
-        margin-top: 80px;
     }
 
     .mob-reverse {
