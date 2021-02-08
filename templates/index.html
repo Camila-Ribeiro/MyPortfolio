@@ -42,7 +42,7 @@
     <h2 class="heading text-left text-uppercase w-100"> My Projects </h2>
   </div>
 </div>
-<section  class="portfolio-section">
+<section  class="project-section">
   <div class="container-wrapper pT">
     {{ request.endpoint == 'projects' }}
     {% for project in my_projects %}
@@ -62,10 +62,8 @@
                 {% endfor %}
               </div>
               <div class="mT-80">
-                <a href="/projects/{{ project.url }}">
-                  <div class="button hvr-sweep-up text-body">
-                    View Case Study
-                  </div>
+                <a class="button hvr-sweep-up text-body" href="/projects/{{ project.url }}">
+                  View Case Study
                 </a>
               </div> 
             </div>  
@@ -89,10 +87,8 @@
                 {% endfor %}
               </div>
               <div class="mT-80">
-                <a href="/projects/{{ project.url }}">
-                  <div class="button hvr-sweep-up text-body">
+                <a class="button hvr-sweep-up text-body" href="/projects/{{ project.url }}">
                     View Case Study
-                  </div>
                 </a>
               </div>
             </div>  
