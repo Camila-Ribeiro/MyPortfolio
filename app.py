@@ -44,5 +44,5 @@ def about():
 
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
-        port=int(os.environ.get('PORT', 22258))
-        app.run(debug=True, host='0.0.0.0', port=port)
+        port=int(os.environ.get('PORT', 22258)),
+        debug=True)
