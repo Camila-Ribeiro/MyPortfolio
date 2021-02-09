@@ -16,7 +16,7 @@ else if(prevScrollpos > currentScrollPos) {
   document.getElementById("navbar").style.top = "-74px";
 }
   prevScrollpos = currentScrollPos;
-}
+};
 
 $(function(){
   $(".smooth").click(function(event){
