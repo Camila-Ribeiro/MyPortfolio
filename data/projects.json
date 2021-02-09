@@ -78,7 +78,7 @@
     "image_iphone": "../static/img/mockup-iphone-my-cookbook.jpg",
     "image_desktop": "../static/img/mockup-desktop-my-cookbook.jpg",
     "image_ipad": "../static/img/mockup-ipad-my-cookbook.jpg",
-    "image_performance": "../static/img/",
+    "image_performance": "../static/img/performance-my-cookbook.png",
     "website": "https://my-cookbook-milestone-project.herokuapp.com/",
     "url": "my-cookbook"
   },
