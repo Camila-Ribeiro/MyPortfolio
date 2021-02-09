@@ -71,3 +71,25 @@ $(function(){
 
 })();
 
+jQuery(document).ready(function(){
+
+  //   insert back to top button dynamicly
+  $("#btn-backToTop").append('<a class="btn-backToTop" href="javascript:void(null);" style="display: none;"><i class="fas fa-chevron-circle-up"></i><iframe id="tmp_downloadhelper_iframe" style="display: none;"></iframe></a>');
+  var $window = $(window);
+  var distance = 80;
+      // scroll
+  $window.scroll(function() {
+      // header
+      if($window.scrollTop() >= distance) {
+      $(".btn-backToTop").fadeIn();
+      }else{
+      $(".btn-backToTop").fadeOut();
+      }
+  });
+    
+  $('.btn-backToTop').click(function() {
+      $('html, body').animate({
+              scrollTop: 0
+          }, 800);
+  });
+})

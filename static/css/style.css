@@ -28,6 +28,33 @@ body {
     color:  rgb(200, 50, 50);
 } 
 
+/* https://codepen.io/phoenixzqy/pen/oLLVGq  */
+.btn-backToTop {
+    transition: all 0.5s ease;
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+    font-size: 3em;
+    z-index: 9999;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.btn-backToTop i{
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    color: rgb(204, 202, 202);
+}
+
+.btn-backToTop i:hover{
+    transition: all 0.5s ease;
+    color:#828282;
+}
+
 /* ----------------------------------------------------------- navigation */
 
 /* Style the navbar */
@@ -163,11 +190,7 @@ padding-top: 60px;
     width: 100%;
     background-color: #F7F8F7;
     transform: translateY(30%) skewY(12deg);
-    /* border-top: 5px solid rgb(200, 50, 50); */
     margin: 35px 0px -60px 0px;
-    /* margin-bottom: -60px;
-    padding-top: 0px; */
-    /* overflow-x: hidden; */
 }
 
 .skewX h2 {
