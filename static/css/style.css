@@ -750,7 +750,7 @@ section .innerContact .smallFooter:first-child {
     }
 }
 
-/* INTRO SECTION */
+/* EDUCATION - INTRO SECTION */
 .intro {
   background: #7BBAC4;
   padding: 100px 0;
@@ -932,10 +932,7 @@ a:hover {
 }
 
 .experience-skills-wrapper {
-    /* width: 80%; */
     margin: 0 auto;
-    /* max-width: 1100px; */
-    /* margin: 100px 0; */
 }
 
 .experience-wrapper, .skills-wrapper {
