@@ -182,10 +182,6 @@ padding-top: 60px;
 }
 
 /* ----------------------------------------------------------- project section*/
-.mT-80 {
-    margin-top: 80px;
-}
-
 .project-section {
     background-color: #ffffff;
     color: black;
@@ -193,13 +189,15 @@ padding-top: 60px;
 }
 
 .container-wrapper {
-    /* width: 90%; */
     margin: 0 auto;
-    /* max-width: 1100px; */
 }
 
 .projects p {
     color: #888;
+}
+
+.projects a {
+    text-decoration: none;
 }
 
 .container-flex {
@@ -219,10 +217,6 @@ padding-top: 60px;
     width: 100%;
 }
 
-/* .text-darkGrey {
-    color: #888;
-} */
-
 .role {
     background-color: #e4e2e2;
     border: 5px;
@@ -235,10 +229,7 @@ padding-top: 60px;
 }
 
 .container--projects {
-    /* -webkit-transition: all .25s;
-    -o-transition: all .25s; */
     transition: all .25s;
-    /* padding-top: 100px; */
     padding-bottom: 200px;
 }
 
@@ -266,6 +257,10 @@ padding-top: 60px;
     font-size: 15px;
     position: absolute;
     bottom: 0;
+}
+
+.mT-80 {
+    margin-top: 80px;
 }
 
 .hvr-sweep-up {
@@ -343,16 +338,22 @@ padding-top: 60px;
 .flower-beauty {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/hero-flower-beauty.jpg);
 }
+
 .curious-world {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/hero-curious-world.jpg);
 }
+
 .my-cookbook {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/hero-my-cookbook.jpg);
 }
+
 .body-balance {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/hero-body-balance.png);
 }
 
+.text-wrapper p {
+    letter-spacing: 1px;
+}
 .project-type h5 {
     float: left;
     position: relative;
@@ -394,10 +395,6 @@ padding-top: 60px;
     width: 20px;
     height: 2px;
     background: rgba(246, 80, 38, 1);
-    /* -webkit-transition: all 200ms ease;
-    -moz-transition: all 200ms ease;
-    -ms-transition: all 200ms ease;
-    -o-transition: all 200ms ease; */
     transition: all 200ms ease;
 }
 
@@ -448,9 +445,6 @@ padding-top: 60px;
 .wrapper-sidebar h3 {
     border-bottom: 1px solid rgba(246, 80, 38, 1);
     margin: 0 20px 20px;
-    /* margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px; */
     padding-bottom: 5px;
 }
 
@@ -463,6 +457,7 @@ padding-top: 60px;
 .container-icon {
     opacity: 0.5;
 }
+
 .img-responsive {
     max-width: 100%;
     height: auto;
@@ -547,7 +542,6 @@ section .innerContact .row .col:first-child {
 }
 
 section .innerContact .row .col:last-child {
-    /* width: 40%; */
     text-align: right;
 }
 
@@ -559,6 +553,7 @@ section .innerContact .row .col:first-child a {
     vertical-align: top;
     position: relative;
 }
+
 section .innerContact .row .col:last-child .label {
     margin-top: 0.36VW;
     font-style: italic;
@@ -576,23 +571,13 @@ section .innerContact .row .col:last-child .socials a {
 }
 
 section .innerContact .smallFooter {
-    /* letter-spacing: 0.063rem; */
-    /* padding: 1.38888889VW 0; */
     font-style: italic;
     position: relative;
-    /* content: ""; */
     height: 0.13888889VW;
     left: 50%;
-    /* position: absolute; */
     top: 0;
-    /* width: 0;  */
     transform: translateX(-50%);
     background: #D91616;
-    /* transition: all 0.6s ease-out;
-    -webkit-transition-delay: 0.3s;
-    -moz-transition-delay: 0.3s;
-    -o-transition-delay: 0.3s;
-    transition-delay: 0.3s; */
 }
 
 section .innerContact .smallFooter:first-child {
@@ -614,7 +599,6 @@ section .innerContact .smallFooter:first-child {
 /* --------------------------------------------------------------- about me page*/
 .about-me {
     margin: 90px 0;
-    /* height: 100vh; */
 }
 
 .camila-img {
@@ -664,7 +648,6 @@ section .innerContact .smallFooter:first-child {
     position: relative;
     padding: 5px 20px 5px;
     width: 50vw;
-    /* margin-left: 20px; */
     line-height: 1.875rem;
 }
 
@@ -743,42 +726,7 @@ section .innerContact .smallFooter:first-child {
     }
 }
 
-/* .education-wrapper {
-    background-color: #fff;
-    width: 600px;
-    min-height: 500px;
-    margin: 0 auto;
-    font-size: 12px;
-} */
-
-/* education section */
-/* @charset "UTF-8";
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
-
-/* dark pink for the bg-color */
-/*dark cayn for the boxes */
-/* light pink  for the words*/
-/* body {
-  font: normal 16px/1.5 "Helvetica Neue", sans-serif;
-  background: #AD1457;
-  color: #F8BBD0;
-  overflow-x: hidden;
-  padding-bottom: 50px;
-} */
-
-/* .about, .intro, .timeline, .experience-skills {
-
-    background-color: #f7f7f7;
-
-} */
-
-/* INTRO SECTION –––––––––––––––––– */
+/* INTRO SECTION */
 .intro {
   background: #7BBAC4;
   padding: 100px 0;
@@ -795,7 +743,7 @@ h1 {
   font-size: 2.5rem;
 }
 
-/* TIMELINE –––––––––––––––––––––– */
+/* TIMELINE */
 .timeline {
     margin: 100px 0 200px 0;
 }
@@ -845,7 +793,6 @@ h1 {
 }
 
 .timeline ul {
-  /* background: #AD1457; */
   padding: 50px 0;
 }
 
@@ -857,6 +804,7 @@ h1 {
     padding: 15px;
     background: #fff;
 }
+
 .timeline div.year-card {
   list-style-type: none;
   position: relative;
@@ -877,14 +825,6 @@ h1 {
   border-radius: 50%;
   background: inherit;
 }
-
-/* .timeline div.year-card div {
-  position: relative;
-  bottom: 0;
-  width: 400px;
-  padding: 15px;
-  background: #fff;
-} */
 
 .timeline div.year-card div::before {
   content: "";
@@ -922,7 +862,7 @@ time {
   margin-bottom: 8px;
 }
 
-/* EFFECTS ––––––––––––––––––––––––––––– */
+/* EFFECTS */
 .timeline div.year-card::after {
   transition: background 0.5s ease-in-out;
 }
@@ -951,58 +891,11 @@ time {
   opacity: 1;
 }
 
-/* GENERAL MEDIA QUERIES ––––––––––––––––––––––––––– */
-@media screen and (max-width: 900px) {
-  .timeline div.year-card div {
-    width: 250px;
-  }
-
-  .timeline div.year-card:nth-child(even) div {
-    left: -289px;
-    /*250+45-6*/
-  }
-}
-@media screen and (max-width: 600px) {
-  .timeline div.year-card {
-    margin-left: 20px;
-  }
-
-  .timeline div.year-card div {
-    width: calc(100vw - 91px);
-  }
-
-  .timeline div.year-card:nth-child(even) div {
-    left: 45px;
-  }
-
-  .timeline div.year-card:nth-child(even) div::before {
-    left: -15px;
-    border-width: 8px 16px 8px 0;
-    border-color: transparent #fff transparent transparent;
-  }
-}
-/* #meBaby {
-  width: 100px;
-  height: 135px;
-} */
-
-/* .photos {
-  width: 300px;
-  height: auto;
-} */
-
-/* a:visited {
-  color: #F8BBD0;
-} */
-
 a:hover {
   color: #AD1457;
 }
 
-
-
 /* experience/skills section */
-
 .container-education, .container-experience-skills {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -1030,6 +923,7 @@ a:hover {
     letter-spacing: .01em;
     font-size: 22px;
 }
+
 .experience-info p {
     line-height: 1.75;
     letter-spacing: .01em;
@@ -1048,9 +942,6 @@ a:hover {
 .navbar-toggler {
     border: 1px solid #00000052;
 }
-
-
-
 
 /* -------------------------------------------------------------- Media Queries */
 @media (max-width:991px) {
@@ -1073,7 +964,6 @@ a:hover {
     }
 
     .text-Im {
-        /* padding-left: 30px; */
         margin-right: 20px;
     }
     
@@ -1121,6 +1011,16 @@ a:hover {
     .skills-wrapper {
         padding: 0;
     }
+
+    /* about page - timeline  */
+    .timeline div.year-card div {
+      width: 250px;
+    }
+  
+    .timeline div.year-card:nth-child(even) div {
+      left: -289px;
+      /*250+45-6*/
+    }
 }
 
 @media (max-width:767px) {
@@ -1138,7 +1038,6 @@ a:hover {
         padding-top: 200px;
     }
 
-    /* hello section */
     .name-c {
         margin-left: 10%;
         font-size: 2.5rem;
@@ -1158,6 +1057,11 @@ a:hover {
     .my-cookbook .hero-text {
         top: 50%;
         left: 35%;
+    }
+
+    .curious-world .hero-text {
+        top: 60%;
+        left: 65%;
     }
 
     .flower-beauty .hero-text {
@@ -1199,10 +1103,6 @@ a:hover {
         padding-top: 150px;
     }
 
-    /* .col, .titleInfo {
-        display: block;
-    } */
-
     section .innerContact .row .col:last-child .label {
         width: 150px;
         margin-top: 20px;
@@ -1214,6 +1114,7 @@ a:hover {
         line-height: 32px;
         width: 300px;
     }
+
     .socials {
         margin-bottom: 50px;
         text-align: left;
@@ -1231,6 +1132,7 @@ a:hover {
     .camila-img {
         background-position: 55%;
     }
+
     .title-bio span {
         font-size: 1.25rem;
     }
@@ -1264,6 +1166,25 @@ a:hover {
         letter-spacing: 0rem;
     }
 
+    /* about page - timeline  */
+    .timeline div.year-card {
+    margin-left: 20px;
+    }
+    
+    .timeline div.year-card div {
+    width: calc(100vw - 91px);
+    }
+    
+    .timeline div.year-card:nth-child(even) div {
+    left: 45px;
+    }
+    
+    .timeline div.year-card:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #fff transparent transparent;
+    }
+
     /* project-detail */
     .hero-image {
         background-position: 70%;
@@ -1271,9 +1192,6 @@ a:hover {
         height: 400px;
     }
 
-    /* .hero-text {
-        top: 30%;
-    } */
     .content {
         margin: 0 auto;
     }
