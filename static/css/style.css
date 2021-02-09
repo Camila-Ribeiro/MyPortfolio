@@ -501,6 +501,10 @@ padding-top: 60px;
     line-height: 1.75;
 }
 
+.about-wrapper a {
+    color: rgb(144, 12, 12);
+}
+
 .about-wrapper .heading:before {
     margin: 11px 10px 100px 0;
 }
@@ -891,7 +895,7 @@ time {
 }
 
 a:hover {
-  color: #AD1457;
+  color: rgb(200, 50, 50);
 }
 
 /* experience/skills section */
