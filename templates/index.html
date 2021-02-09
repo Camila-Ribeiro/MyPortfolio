@@ -42,12 +42,12 @@
     <h2 class="heading text-left text-uppercase w-100"> My Projects </h2>
   </div>
 </div>
-<section  class="project-section">
+<section class="project-section">
   <div class="container-wrapper pT">
     {{ request.endpoint == 'projects' }}
     {% for project in my_projects %}
 
-      <div class="container container--projects">
+      <div class="container container-projects">
         
         {% if loop.index % 2 !=0 %}
           <div class="row mob-reverse">
@@ -68,7 +68,7 @@
               </div> 
             </div>  
             <div class="col-md-7">
-                <img class="img-responsive" src="{{ project.image_index }}" alt="{{project.name }}>
+                <img class="img-responsive" src="{{ project.image_index }}" alt="{{project.name }}">
             </div>
           </div>
         {% else %}

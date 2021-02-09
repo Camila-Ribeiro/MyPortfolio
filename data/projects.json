@@ -5,13 +5,15 @@
     "description": "Body Balance is an e-commerce solution web application that utilises Stripe payment methods. It's designed for users with interest in fitness & healthy lifestyle offering Nutritional Plan, Gym Equipments & Activewear available to purchase. Built in Python, Jinja & Django it uses CRUD operations so the website Admin is able to create, read,update, delete all it's content.",
     "project_role": [
       "UX",
-      "Fullstack"
+      "Full Stack"
     ],
     "work_involved": [
       {"work": "Website Design", "icon": "../static/img/icon-web-design.svg"},
       {"work":"Responsive Website Design", "icon": "../static/img/icon-responsive-design.svg"},
       {"work":"Website Development Design", "icon": "../static/img/icon-web-programming.svg"},
       {"work":"eCommerce Solution", "icon": "../static/img/icon-ecommerce.svg"},
+      {"work":"Relational Database", "icon": "../static/img/icon-database.svg"},
+      {"work":"Stripe API Integration", "icon": "../static/img/icon-api.svg"},
       {"work":"UX/Wireframe", "icon": "../static/img/icon-wireframe.svg"}
     ],
     "technology": [
@@ -46,12 +48,14 @@
     "description": "My Cookbook was built using Python, Flask, Jinja and MongoDB Atlas which is a non-relational, document oriented database. The recipes and images used are from Spoonacular Food API. Users can create, read, update and delete (CRUD functions) recipes.",
     "project_role": [
       "UX",
-      "Full-Stack"
+      "Full Stack"
     ],
     "work_involved": [
       {"work": "Website Design", "icon": "../static/img/icon-web-design.svg"},
       {"work":"Responsive Website Design", "icon": "../static/img/icon-responsive-design.svg"},
       {"work":"Website Development Design", "icon": "../static/img/icon-web-programming.svg"},
+      {"work":"Non-Relational Database", "icon": "../static/img/icon-database.svg"},
+      {"work":"Spoonacular API Integration", "icon": "../static/img/icon-api.svg"},
       {"work":"UX/Wireframe", "icon": "../static/img/icon-wireframe.svg"}
     ],
     "technology": [
@@ -90,6 +94,7 @@
       {"work": "Website Design", "icon": "../static/img/icon-web-design.svg"},
       {"work":"Responsive Website Design", "icon": "../static/img/icon-responsive-design.svg"},
       {"work":"Website Development Design", "icon": "../static/img/icon-web-programming.svg"},
+      {"work":"Foursquare API Integration", "icon": "../static/img/icon-api.svg"},
       {"work":"UX/Wireframe", "icon": "../static/img/icon-wireframe.svg"}
     ],
     "technology": [
@@ -113,7 +118,7 @@
   {
     "name": "Flower Beauty",
     "project_info": "This Beautician website is designed for clients looking for information and available services offered by Flower Beauty & Nails",
-    "description": "Flower Beauty and Nails is website built in HTML/CSS. It's designed for users that are looking for information as services offered, team members, prices and location. The website is simple and structured in a way that is easy to navigate and find the information needed. It was redesigned from and old version https:\/\/flowerbeautyandnails.wordpress.com\/ ",
+    "description": "Flower Beauty and Nails was my first website. It was redesigned using HTML/CSS languages with the purpose to target users that are looking for information as services offered at Flower Beauty, team members, prices and location. The website is simple and structured in a way that is easy to navigate and find the information needed.",
     "project_role": [
       "UX",
       "Front-End"

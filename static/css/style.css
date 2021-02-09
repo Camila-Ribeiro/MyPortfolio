@@ -227,16 +227,16 @@ padding-top: 60px;
     font-size: 12px;
 }
 
-.container--projects {
+.container-projects {
     transition: all .25s;
     padding-bottom: 200px;
 }
 
-.container--projects h3 {
+.container-projects h3 {
     font-weight: 900;
 }
 
-.container--projects p {
+.container-projects p {
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 1.75;
@@ -252,7 +252,7 @@ padding-top: 60px;
     padding: 20px 0;
 }
 
-.container--projects .button {
+.container-projects .button {
     font-size: 15px;
     position: absolute;
     bottom: 0;
@@ -1077,7 +1077,7 @@ a:hover {
         flex-direction: column-reverse;
     }
 
-    .container--projects {
+    .container-projects {
         padding-bottom: 60px;
     }
 
