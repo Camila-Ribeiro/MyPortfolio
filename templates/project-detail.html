@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% block content %}
 
-<section">
+<section>
     <div class="hero-image {{ project.url}}">
         <div class="hero-text">
             <h1>{{ project.name }}</h1>
@@ -27,9 +27,9 @@
                 </p>
             </div>
             <div class="col-sm col-md-3">
-                <img class="img" data-rellax-speed=".5" src="../static/img/device-1.svg" style="transform: translate3d(0px, 0px, 0px);">
-				<img class="img img-laptop" data-rellax-speed="1" src="../static/img/device-2.svg" style="transform: translate3d(0px, 0px, 0px);">
-				<img class="img img-laptop" data-rellax-speed="2" src="../static/img/device-3.svg" style="transform: translate3d(0px, 0px, 0px);">
+                <img class="img" src="../static/img/device-1.svg" style="transform: translate3d(0px, 0px, 0px);" alt="Desktop">
+				<img class="img img-laptop" src="../static/img/device-2.svg" style="transform: translate3d(0px, 0px, 0px);" alt="Tablet">
+				<img class="img img-laptop" src="../static/img/device-3.svg" style="transform: translate3d(0px, 0px, 0px);" alt="Mobile">
             </div>
         </div> 
         <div class="row">
@@ -71,7 +71,7 @@
                         {% for work in project.work_involved %}
                             <li class="mb-3">
                                 <div class="container-icon">
-                                    <img class="img-responsive" src="{{ work['icon'] }}" alt="Website Design" title="" scale="0">
+                                    <img class="img-responsive" src="{{ work['icon'] }}" alt="{{ work['work'] }}" title="" scale="0">
                                 </div>
                                 <div class="container-title">{{ work['work'] }}</div>
                             </li>

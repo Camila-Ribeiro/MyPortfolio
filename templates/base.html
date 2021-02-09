@@ -13,7 +13,7 @@
         <link href="{{ url_for('static', filename='css/style.css') }}" type="text/css" rel="stylesheet"/>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet"/>
         <!-- JS ShareThis -->
-        <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=6022c0d9f71937001207d33b&product=inline-share-buttons" async="async"></script>
+        <script src="https://platform-api.sharethis.com/js/sharethis.js#property=6022c0d9f71937001207d33b&product=inline-share-buttons" async="async"></script>
         <title>{{ title }}</title>
     </head>
     <body>
@@ -32,7 +32,7 @@
                             <a class="nav-link text-uppercase  {% if active_page == 'about' %} active {% endif %}" href="{{ url_for('about') }}">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase" href="/static/pdf/Camila_Ribeiro_Resume.pdf"target="_blank">Resume</a>
+                            <a class="nav-link text-uppercase" href="/static/pdf/Camila_Ribeiro_Resume.pdf" target="_blank">Resume</a>
                         </li>
                         <li class="nav-item">
                             <a class="{% if request.path == '/' %} smooth {% endif %} nav-link text-uppercase {% if active_page == 'index' %} active {% endif %}" href="{{ contact }}">Contact</a>
@@ -48,10 +48,9 @@
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-       
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
         <script src="{{ url_for('static', filename='js/main.js') }}"></script>
-
+        
     </body>
 </html>
