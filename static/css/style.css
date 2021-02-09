@@ -389,7 +389,6 @@ padding-top: 60px;
 .project-type:after {
     position: absolute;
     top: calc(50% - 1px);
-    left: 30%;
     content: "";
     width: 20px;
     height: 2px;
