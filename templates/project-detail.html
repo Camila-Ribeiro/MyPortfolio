@@ -17,7 +17,6 @@
         <div class="row pt-5">
             <div class="col-sm col-md-10 project-type">
                 <h5 class="pb-2">Website</h5>
-                <!-- <p class="date">JAN 2020</p> -->
             </div>
         </div>
         <div class="row">
@@ -71,7 +70,7 @@
                         {% for work in project.work_involved %}
                             <li class="mb-3">
                                 <div class="container-icon">
-                                    <img class="img-responsive" src="{{ work['icon'] }}" alt="{{ work['work'] }}" title="" scale="0">
+                                    <img class="img-responsive" src="{{ work['icon'] }}" alt="{{ work['work'] }}"/>
                                 </div>
                                 <div class="container-title">{{ work['work'] }}</div>
                             </li>
