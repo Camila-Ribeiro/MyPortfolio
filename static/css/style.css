@@ -147,11 +147,24 @@ padding-top: 60px;
     padding-right: 0px;
 }
 
+.title-div p {
+    font-size: 20px;
+}
+
 .border-B {
     border-top: 4px solid red;
     opacity: 0.8;
-    width: 90%;
+    width: 100%;
     /* margin: 0 0 0 82px; */
+    animation: drawBorder 3s ease forwards;
+}
+@keyframes drawBorder {
+  from {
+    max-width: 0%;
+  }
+  to {
+    max-width: 100%;
+  }
 }
 
 .top {
