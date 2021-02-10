@@ -139,7 +139,13 @@ padding-top: 60px;
 
 .animate__animated.animate__slideInUp {
     --animate-duration: 2s;
+    --animate-delay: 0.9s;
 }
+.animate__animated.animate__fadeIn {
+    --animate-duration: 3s;
+    --animate-delay: 1.8s;
+}
+
 
 .text-Im {
     padding-left: 20px;
@@ -154,7 +160,6 @@ padding-top: 60px;
     border-top: 4px solid red;
     opacity: 0.8;
     width: 100%;
-    /* margin: 0 0 0 82px; */
     animation: drawBorder 3s ease forwards;
 }
 @keyframes drawBorder {
@@ -300,16 +305,10 @@ padding-top: 60px;
 .hvr-sweep-up {
     display: inline-block;
     vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
-    -webkit-box-shadow: 0 0 1px transparent;
     box-shadow: 0 0 1px transparent;
     position: relative;
-    -webkit-transition-property: color;
-    -o-transition-property: color;
     transition-property: color;
-    -webkit-transition-duration: .25s;
-    -o-transition-duration: .25s;
     transition-duration: .25s;
 }
 
@@ -326,23 +325,14 @@ padding-top: 60px;
     right: 0;
     bottom: 0;
     background: #111;
-    -webkit-transform: scaleY(0);
-    -ms-transform: scaleY(0);
     transform: scaleY(0);
-    -webkit-transform-origin: 50% 100%;
-    -ms-transform-origin: 50% 100%;
     transform-origin: 50% 100%;
     -webkit-transition-property: transform;
     -webkit-transition-property: -webkit-transform;
     transition-property: -webkit-transform;
-    -o-transition-property: transform;
     transition-property: transform;
     transition-property: transform,-webkit-transform;
-    -webkit-transition-duration: .25s;
-    -o-transition-duration: .25s;
     transition-duration: .25s;
-    -webkit-transition-timing-function: ease-out;
-    -o-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
 }
 
