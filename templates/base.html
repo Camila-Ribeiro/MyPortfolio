@@ -14,22 +14,18 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet"/>
         <!-- JS ShareThis -->
         <script src="https://platform-api.sharethis.com/js/sharethis.js#property=6022c0d9f71937001207d33b&product=inline-share-buttons" async="async"></script>
-        <!-- Google Tag Manager -->
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-M7M4KQL');
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-E8Z9J5SC0H"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-E8Z9J5SC0H');
         </script>
-        <!-- End Google Tag Manager -->
         <title>{{ title }}</title>
     </head>
     <body>
-        <!-- Google Tag Manager (noscript) -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M7M4KQL"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe>
-        </noscript>
-        <!-- End Google Tag Manager (noscript) -->
         <header>
             <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="navbar">
                 <a class="{% if request.path == '/' %} smooth {% endif %} navbar-brand" href="{{ url_for('index') }}">Camila Ribeiro</a>
