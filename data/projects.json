@@ -1,8 +1,8 @@
 [
   {
     "name": "Body Balance",
-    "project_info": "Body Balance is an e-commerce  web application designed for users that are looking for a health lifestyle. If offers nutrition plan and fitness products available to purchase.",
-    "description": "Body Balance is an e-commerce solution web application that utilises Stripe payment methods. It's designed for users with interest in fitness & healthy lifestyle offering Nutritional Plan, Gym Equipments & Activewear available to purchase. Built in Python, Jinja & Django it uses CRUD operations so the website Admin is able to create, read,update, delete all it's content.",
+    "project_info": "Body Balance is an eCommerce  web application designed for users that are looking for a healthy lifestyle. It offers a nutrition plan and fitness products available to purchase",
+    "description": "Body Balance is an e-commerce solution web application that utilises Stripe payment methods. It's designed for users with interest in fitness & healthy lifestyle offering Nutritional Plan, Gym Equipments & Activewear available to purchase. Built-in Python, Jinja & Django it uses CRUD operations so the website Admin can create, read, update, delete all its content.",
     "project_role": [
       "UX",
       "Full Stack"
@@ -44,8 +44,8 @@
   },
   {
     "name": "My Cookbook",
-    "project_info": "My Cookbook is an online web application designed for users with interest about cooking who are looking for diferent cuisines and recipes.",
-    "description": "My Cookbook was built using Python, Flask, Jinja and MongoDB Atlas which is a non-relational, document oriented database. The recipes and images used are from Spoonacular Food API. Users can create, read, update and delete (CRUD functions) recipes.",
+    "project_info": "My Cookbook is an online web application designed for users with interest in cooking who are looking for different cuisines and recipes",
+    "description": "My Cookbook was built using Python, Flask, Jinja and MongoDB Atlas which is a non-relational, document-oriented database. The recipes and images used are from Spoonacular Food API. Users can create, read, update and delete (CRUD functions) recipes.",
     "project_role": [
       "UX",
       "Full Stack"
@@ -84,8 +84,8 @@
   },
   {
     "name": "Curious World",
-    "project_info": "Are you planning to travel but is a little bit lost where to go? Curious World is a website designed for travel lovers. Here you can find hotels, restaurants and museums across different cities all over the world!",
-    "description": "Curious World is a website built in HTML/CSS & Java Script and based on a database from Foursquare API. It was expecially designed for users with interest in find out information about hotels, restaurants and museums across different cities all over the world offering photos, reviews, ratings, maps, websites and contact phone numbers.",
+    "project_info": "Are you planning to travel but is a little bit lost about where to go? Curious World is a website designed for travel lovers. Here you can find hotels, restaurants and museums across different cities all over the world!",
+    "description": "Curious World is a website built in HTML/CSS & JavaScript and based on a database from Foursquare API. It was specially designed for users with interest in finding out information about hotels, restaurants and museums across different cities all over the world offering photos, reviews, ratings, maps, websites and contact phone numbers.",
     "project_role": [
       "UX",
       "Font-End"
